@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vacancy-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\vacancies.xsd">
+
+ <vacancy id="0">
+  <name>Senior Computer Vision Engineer</name>
+  <company>Svitla Systems, Inc.</company>
+  <cities>
+   <city> Êèåâ </city>
+   <city> Õàğüêîâ </city>
+   <city> Ëüâîâ </city>
+   <city> óäàëåííî </city>
+  </cities>
+  <info>
+   Svitla Systems Inc. is looking for Senior Computer Vision Engineer for a full-time position (40 hours per week) in Ukraine. Our client is a National Digital Marketing company that has been in business since 2011.
+  </info>
+ </vacancy>
+
+ <vacancy id="1">
+  <name>Middle Python Developer</name>
+  <company>WePlay! Esports</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   About us: WePlay! Esports is the first esportainment company in TECHIIA holding, that combined esports, storytelling and entertainment content. We want to surprise and entertain every esports fan and attract new ones.
+  </info>
+ </vacancy>
+
+ <vacancy id="2">
+  <name>Senior Python Developer, Financial Software Solutions</name>
+  <company>DataArt</company>
+  <cities>
+   <city> Êèåâ </city>
+   <city> Õàğüêîâ </city>
+   <city> Ëüâîâ </city>
+   <city> Äíåïğ </city>
+   <city> Îäåññà </city>
+   <city> Õåğñîí </city>
+   <city> Ëşáëèí (Ïîëüøà) </city>
+   <city> Âğîöëàâ (Ïîëüøà) </city>
+   <city> óäàëåííî </city>
+  </cities>
+  <info>
+   THE POSITION OFFERS REMOTE WORK OPPORTUNITY. Our client is a New York City-based FinTech startup that is building a trading and risk software platform for the investment banking industry to sell as a service.
+  </info>
+ </vacancy>
+
+ <vacancy id="3">
+  <name>ML Engineer C++/Python</name>
+  <company>Ring Ukraine</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   Job Summary As a member of our Research Team, you will be solving challenging problems. You will be engaged in an iterated process of data preparation, prototyping and/or implementation, measurement, and deploying your solution.
+  </info>
+ </vacancy>
+
+ <vacancy id="4">
+  <name>Middle/Senior Full-Stack Python Engineer</name>
+  <company>Moneyveo</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   Moneyveo is a fast growing product company. Our primary product is an online credit system, allowing customer to get a loan online within 10 minutes. Now, we are looking for experienced Full-Stack Engineer to extend our RnD team in Kiev office.
+  </info>
+ </vacancy>
+
+ <vacancy id="5">
+  <name>Senior Full-stack Developer (Python/React)</name>
+  <company>Go interactive</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   Our Stack
+   - Testing (Jest, Sinon)
+   - Analytics, Error Capturing (Google, Rollbar)
+   - Languages (Javascript, Python)
+   - Frameworks (React/Redux, Django)
+   - AWS (RDS, EC2, S3)
+   - Visualization library (D3)
+   - iOS (Viper/Swift)
+   - Android (MVVM/Kotlin)
+   Building the ecosystem for care...
+  </info>
+ </vacancy>
+
+ <vacancy id="6">
+  <name>Junior/Middle Python Verification Engineer</name>
+  <company>PLVision</company>
+  <cities>
+   <city> Ëüâîâ </city>
+  </cities>
+  <info>
+   We are looking for a talented Software Verification Engineer to join the switch OS group. You’ll be a part of a friendly supportive team working on next generation of the operating systems for InfiniBand and Ethernet switch.
+  </info>
+ </vacancy>
+
+ <vacancy id="7">
+  <name>Senior Python QA Automation Engineer (Switch Products)</name>
+  <company>Ubiquiti Inc</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   — 3 years of software testing experience, at least 1 year of QA Automation using Python.
+   — Strong experience in Python, REST API and scripting languages.
+   — Strong knowledge of software QA methodologies, tools and processes.
+   — Experience with Jenkins, Git.
+  </info>
+ </vacancy>
+
+ <vacancy id="8">
+  <name>Python developer</name>
+  <company>Àëüôà-Áàíê Óêğàèíà</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   — ó÷àñòü ó ö³êàâîìó ïğîåêò³ ç ğîçâèòêó ñèñòåìè ëîÿëüíîñò³ äëÿ êë³åíò³â Áàíêó â in real-time
+   — áğàòè ó÷àñòü ó ğîçğîáö³ íîâèõ òà äîğîáö³ ³ñíóş÷èõ ³íòåãğàö³éíèõ êîìïîíåíò³â íà áàç³ òåõíîëîã³é Big data
+  </info>
+ </vacancy>
+
+ <vacancy id="9">
+  <name>Senior Python Engineer for Networking Solutions</name>
+  <company>OpenVPN</company>
+  <cities>
+   <city> Êèåâ </city>
+   <city> Ëüâîâ </city>
+  </cities>
+  <info>
+   If you have ever used a VPN service, chances are it was based on OpenVPN, an open-source protocol that we first developed over 16 years ago and that has since become the de-facto industry standard implemented in the majority of commercial VPN software.
+  </info>
+ </vacancy>
+
+ <vacancy id="10">
+  <name>Paid Internship — Python Software Engineer (Scrapy)</name>
+  <company>Competera</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   Competera is a Ukrainian software development company offering a comprehensive pricing platform for large retailers worldwide. We change the way retailers do pricing with Big Data and Deep Learning to help them compete with giants like Amazon and Walmart.
+  </info>
+ </vacancy>
+
+ <vacancy id="11">
+  <name>Python developer(middle)</name>
+  <company>InStandart</company>
+  <cities>
+   <city> Õåğñîí </city>
+  </cities>
+  <info>
+   — Knowledge of Python, OOP, design patterns, algorithms, and data structures
+   — Professional level at building web application using Django, Django REST
+   — Ability to work with front-end development
+   — Knowledge of at least one modern framework (Angular, React, Vue)
+   — Skilled...
+  </info>
+ </vacancy>
+
+ <vacancy id="12">
+  <name>Django full-stack dev to fintech startup</name>
+  <company>Proxify</company>
+  <cities>
+   <city> óäàëåííî </city>
+  </cities>
+  <info>
+   We are urgently looking for a mid-senior Django full-stack developer to join us on a remote basis.
+  </info>
+ </vacancy>
+
+ <vacancy id="13">
+  <name>Middle/Senior Python</name>
+  <company>Flyaps</company>
+  <cities>
+   <city> Äíåïğ </city>
+   <city> óäàëåííî </city>
+  </cities>
+  <info>
+   If you are a great professional who want to become an ace — then this offer is for you. If you dream about creating your startup — then this is also your offer.
+  </info>
+ </vacancy>
+
+ <vacancy id="14">
+  <name>Middle Python Developer</name>
+  <company>KeyUA</company>
+  <cities>
+   <city> Äíåïğ </city>
+  </cities>
+  <info>
+   We are currently expanding our Python team. If you strive to be the best at what you do and have a passion in development work — then perhaps the next step in your professional development is a job with KeyUA as a Back End Python Developer! Send your CV (hiring@keyua.org...
+  </info>
+ </vacancy>
+
+ <vacancy id="15">
+  <name>Junior Python Developer (Internship)</name>
+  <company>Flyaps</company>
+  <cities>
+   <city> Äíåïğ </city>
+  </cities>
+  <info>
+   Flyaps is looking for smart and motivated university graduates that want to become experts in software engineering
+  </info>
+ </vacancy>
+
+ <vacancy id="16">
+  <name>Lead Machine Learning Engineer</name>
+  <company>LabsTECH</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   Our client is leading the computer vision space with advanced embedded sensing and deep learning solutions for the automotive and home environments.
+  </info>
+ </vacancy>
+
+ <vacancy id="17">
+  <name>Senior Python Developer, backend</name>
+  <company>PLINK.GG</company>
+  <cities>
+   <city> Êèåâ </city>
+  </cities>
+  <info>
+   Ìû ğàçğàáàòûâàåì èãğîâûå ïğèëîæåíèÿ äëÿ âçàèìîäåéñòâèÿ ïîëüçîâàòåëåé â ğàçíûõ èãğîâûõ ñîîáùåñòâàõ. Àãğåãèğóåì äàííûå èç ğàçíûõ ñèñòåì, ñîáèğàåì â îäíîì ìåñòå è îòñëåæèâàåì èçìåíåíèÿ. Ïğîåêò ïîääåğæèâàåòñÿ êğóïíîé ãåéìäåâ ñòóäèåé.
+  </info>
+ </vacancy>
+
+ <vacancy id="18">
+  <name>Python Developer (DSP, ML, voice)</name>
+  <company>Powow AI</company>
+  <cities>
+   <city> Îäåññà </city>
+   <city> çà ğóáåæîì </city>
+   <city> óäàëåííî </city>
+  </cities>
+  <info>
+   Powow AI is a platform for introducing AI to your business meetings. We combine AI, scaled processing, and an intuitive web interface to revolutionize how business is done. Headquartered in NYC, development in Ukraine.
+  </info>
+ </vacancy>
+
+ <vacancy id="19">
+  <name>Live Video Streaming Engineer / Developer</name>
+  <company>Qencode</company>
+  <cities>
+   <city> óäàëåííî </city>
+  </cities>
+  <info>
+   Qencode — ıòî âûñîêîıôôåêòèâíîå îáëà÷íîå ğåøåíèå äëÿ òğàíñêîäèğîâàíèÿ âèäåî, êîòîğîå ïîçâîëÿåò êëèåíòàì ñıêîíîìèòü áîëåå 80% çàòğàò íà òğàíñêîäèğîâàíèå. Ìû òàëàíòëèâàÿ êîìàíäà èíæåíåğîâ ïî âñåìó ìèğó, êîòîğûå ëşáÿò èçó÷àòü íîâûå òåõíîëîãèè è ó÷èòüñÿ äğóã ó äğóãà.
+  </info>
+ </vacancy>
+ 
+</vacancy-list>
