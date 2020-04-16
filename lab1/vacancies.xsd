@@ -1,25 +1,33 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
 	<xs:element name="vacancy-list">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="vacancy" minOccurs="1" maxOccurs="unbounded">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="name" type="xs:string"/>
-							<xs:element name="company" type="xs:string"/>
-							<xs:element name="cities">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="info" type="xs:string"/>
-						</xs:sequence>
-						<xs:attribute name="id" type="xs:byte"/>
-					</xs:complexType>
-				</xs:element>
+				<xs:element name="vacancy" type="vacancyType" minOccurs="1" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	
+	
+	<xs:complexType name="vacancyType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="company" type="xs:string"/>
+			<xs:element name="cities" type="citiesType"/>
+			<xs:element name="info">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="500"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:byte"/>
+	</xs:complexType>
+	
+	<xs:complexType name="citiesType">
+		<xs:sequence>
+			<xs:element name="city" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
 </xs:schema>
