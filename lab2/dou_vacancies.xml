@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<vacancy-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\vacancies.xsd">
+<vacancy-list>
  <vacancy id="0">
   <name>
    Middle Python Developer
@@ -13,9 +13,9 @@
    </city>
   </cities>
   <info>
-   About us:
+   Aboutï¿½us:
 
-WePlay! Esports is the first esportainment company in TECHIIA holding, that combined esports, storytelling and entertainment content. We want to surprise and entertain every esports fan and attract new ones.
+WePlay! Esports isï¿½the first esportainment company inï¿½TECHIIA holding, that combined esports, storytelling and entertainment content. Weï¿½want toï¿½surprise and entertain every esports fan and attract new ones.
   </info>
  </vacancy>
  <vacancy id="1">
@@ -31,7 +31,7 @@ WePlay! Esports is the first esportainment company in TECHIIA holding, that comb
    </city>
   </cities>
   <info>
-   Omilia is an international company with offices in Athens, Kyiv, Crete and Prague a.o.
+   Omilia isï¿½anï¿½international company with offices inï¿½Athens, Kyiv, Crete and Prague a.o.
 Our customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.
   </info>
  </vacancy>
@@ -48,7 +48,7 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
    </city>
   </cities>
   <info>
-   Omilia is an international company with offices in Athens, Kyiv, Crete and Prague a.o.
+   Omilia isï¿½anï¿½international company with offices inï¿½Athens, Kyiv, Crete and Prague a.o.
 Our customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.
   </info>
  </vacancy>
@@ -65,7 +65,7 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
    </city>
   </cities>
   <info>
-   At Very Good Security (“VGS”) we are on a mission to protect the world’s sensitive data — and we’d love to have you along for this journey.
+   Atï¿½Very Good Security (ï¿½VGSï¿½) weï¿½are onï¿½aï¿½mission toï¿½protect the worldï¿½s sensitive dataï¿½ï¿½ and weï¿½d love toï¿½have you along for this journey.
   </info>
  </vacancy>
  <vacancy id="4">
@@ -81,12 +81,12 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
    </city>
   </cities>
   <info>
-   Ïðîäóêòîâàÿ IT êîìïàíèÿ, íàõîäÿùàÿñÿ íà ðûíêå áîëåå 9 ëåò.
+   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ITï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ 9ï¿½ï¿½ï¿½ï¿½.
   </info>
  </vacancy>
  <vacancy id="5">
   <name>
-   Python Instructor / Developer (Mate academy)
+   Python Instructorï¿½/ Developer (Mate academy)
   </name>
   <company>
    Genesis
@@ -97,12 +97,12 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
    </city>
   </cities>
   <info>
-   Genesis — is a full-cycle international product ²Ò-company. -We are the most high-loaded company in the country and one of the largest partner of Facebook, Google, Snapchat and Apple in the CEE region.
+   Genesisï¿½ï¿½ isï¿½aï¿½full-cycle international product ï¿½ï¿½-company. -Weï¿½are the most high-loaded company inï¿½the country and one ofï¿½the largest partner ofï¿½Facebook, Google, Snapchat and Apple inï¿½the CEE region.
   </info>
  </vacancy>
  <vacancy id="6">
   <name>
-   Junior Developer in Test (Python)
+   Junior Developer inï¿½Test (Python)
   </name>
   <company>
    Ajax Systems
@@ -113,7 +113,7 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
    </city>
   </cities>
   <info>
-   Ìè, Ajax Systems, ñòâîðþºìî ñèñòåìó áåçïåêè ³ ïðèñòðî¿ smart home. Õî÷åìî, ùîá êîæåí áóäèíîê ñòàâ áåçïå÷íèì ³ íàä³éíèì, à ñèãíàë³çàö³¿ — òåõíîëîã³÷íèìè, ñòèëüíèìè ³ ïðîñòèìè ó âèêîðèñòàíí³. Â³ðèìî â ³íòåðíåò ðå÷åé ³ ðîçóìíó áåçïåêó, ÿê éîãî îñíîâó.
+   ï¿½ï¿½, Ajax Systems, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ smart home. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. Â³ï¿½ï¿½ï¿½ï¿½ â ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
   </info>
  </vacancy>
  <vacancy id="7">
@@ -129,7 +129,7 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
    </city>
   </cities>
   <info>
-   DataForest— we are experts committed to creating bespoke data-driven solutions for the variety of corporate clients over the world.
+   DataForestï¿½ weï¿½are experts committed toï¿½creating bespoke data-driven solutions for the variety ofï¿½corporate clients over the world.
   </info>
  </vacancy>
  <vacancy id="8">
@@ -145,7 +145,7 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
    </city>
   </cities>
   <info>
-   We are looking for skilled developer with the backend development experience using Python/Django with some knowledge of blockchain and smart contracts. Preferably from Ukraine or Eastern Europe.
+   Weï¿½are looking for skilled developer with the backend development experience using Python/Django with some knowledge ofï¿½blockchain and smart contracts. Preferably from Ukraine orï¿½Eastern Europe.
   </info>
  </vacancy>
  <vacancy id="9">
@@ -162,9 +162,9 @@ Our customers are big contact centers all over the world, from USA, Canada, Spai
   </cities>
   <info>
    Python knowledge
-Experience in development of high scale and high performance applications
-Understanding of Microservices, Enterprise web applications, Serverless Architecture
-Spoken English knowledge (intermediate or better)
+Experience inï¿½development ofï¿½high scale and high performance applications
+Understanding ofï¿½Microservices, Enterprise web applications, Serverless Architecture
+Spoken English knowledge (intermediate orï¿½better)
   </info>
  </vacancy>
  <vacancy id="10">
@@ -183,7 +183,7 @@ Spoken English knowledge (intermediate or better)
    </city>
   </cities>
   <info>
-   We’re seeking a creative Senior Software Engineer, Healthcare Data Ingestion who enjoys implementing scalable and interoperable applications and systems to join our Engineering Team.
+   Weï¿½re seeking aï¿½creative Senior Software Engineer, Healthcare Data Ingestion who enjoys implementing scalable and interoperable applications and systems toï¿½join our Engineering Team.
   </info>
  </vacancy>
  <vacancy id="11">
@@ -200,7 +200,7 @@ Spoken English knowledge (intermediate or better)
   </cities>
   <info>
    ABOUT THE PROJECT: 
-Our customer takes the leading position in advanced data analytics and engineering expertise.
+Our customer takes the leading position inï¿½advanced data analytics and engineering expertise.
   </info>
  </vacancy>
  <vacancy id="12">
@@ -216,7 +216,7 @@ Our customer takes the leading position in advanced data analytics and engineeri
    </city>
   </cities>
   <info>
-   This year we celebrated our 12th anniversary. During this period we have developed more than 200 different web and mobile development projects for our clients worldwide. We’re headquartered in Kharkiv, Ukraine.
+   This year weï¿½celebrated our 12th anniversary. During this period weï¿½have developed more than 200 different web and mobile development projects for our clients worldwide. Weï¿½re headquartered inï¿½Kharkiv, Ukraine.
   </info>
  </vacancy>
  <vacancy id="13">
@@ -238,7 +238,7 @@ Our customer takes the leading position in advanced data analytics and engineeri
    </city>
   </cities>
   <info>
-   We’re looking for a Senior Data Engineer who is ready to develop in a highly innovative, cutting-edge technology environment. Challenge promised, adventures guaranteed!
+   Weï¿½re looking for aï¿½Senior Data Engineer who isï¿½ready toï¿½develop inï¿½aï¿½highly innovative, cutting-edge technology environment. Challenge promised, adventures guaranteed!
   </info>
  </vacancy>
  <vacancy id="14">
@@ -254,8 +254,8 @@ Our customer takes the leading position in advanced data analytics and engineeri
    </city>
   </cities>
   <info>
-   We are a dynamic and scalable full-cycle Console &amp; PC Game Developer and focused on next gen AAA games creation.
-Our team is veterans of the gaming industry and have worked on well-known world-class games.
+   Weï¿½are aï¿½dynamic and scalable full-cycle Console &amp;ï¿½PCï¿½Game Developer and focused onï¿½next gen AAA games creation.
+Our team isï¿½veterans ofï¿½the gaming industry and have worked onï¿½well-known world-class games.
   </info>
  </vacancy>
  <vacancy id="15">
@@ -274,11 +274,11 @@ Our team is veterans of the gaming industry and have worked on well-known world-
    </city>
   </cities>
   <info>
-   On behalf of Persefoni (https://www.persefoni.com/), TurnKey is looking for a Data Engineer to join our technology team.
+   Onï¿½behalf ofï¿½Persefoni (https://www.persefoni.com/), TurnKey isï¿½looking for aï¿½Data Engineer toï¿½join our technology team.
 
 About the Client
 
-Our mission is the enablement of every organization and person with the technology to positively impact the health of planet Earth.
+Our mission isï¿½the enablement ofï¿½every organization and person with the technology toï¿½positively impact the health ofï¿½planet Earth.
   </info>
  </vacancy>
  <vacancy id="16">
@@ -294,8 +294,8 @@ Our mission is the enablement of every organization and person with the technolo
    </city>
   </cities>
   <info>
-   · Platform which provides the REST API for the end user to manage and orchestrate various ML models (mostly Spark/PySpark based) focused on different aspects of healthcare domain (treatment cost estimation, categorisation of patients, health risk estimation etc);
-·...
+   ï¿½ Platform which provides the REST API for the end user toï¿½manage and orchestrate variousï¿½ML models (mostly Spark/PySpark based) focused onï¿½different aspects ofï¿½healthcare domain (treatment cost estimation, categorisation ofï¿½patients, health risk estimation etc);
+ï¿½...
   </info>
  </vacancy>
  <vacancy id="17">
@@ -311,12 +311,12 @@ Our mission is the enablement of every organization and person with the technolo
    </city>
   </cities>
   <info>
-   Our partner is a huge company that builds solutions in the Finance sphere. The idea of this particular project is to help out company with scanning and managing financial documents. There is already a third-party solution in place, so all the hard work is done.
+   Our partner isï¿½aï¿½huge company that builds solutions inï¿½the Finance sphere. The idea ofï¿½this particular project isï¿½toï¿½help out company with scanning and managing financial documents. There isï¿½already aï¿½third-party solution inï¿½place, soï¿½all the hard work isï¿½done.
   </info>
  </vacancy>
  <vacancy id="18">
   <name>
-   Python Engineer at AnvilEight
+   Python Engineer atï¿½AnvilEight
   </name>
   <company>
    AnvilEight
@@ -329,7 +329,7 @@ Our mission is the enablement of every organization and person with the technolo
   <info>
    About Us:
 
-AnvilEight is Python development outsourcing company that provides custom software solutions and mobile development services to both businesses and individuals.
+AnvilEight isï¿½Python development outsourcing company that provides custom software solutions and mobile development services toï¿½both businesses and individuals.
   </info>
  </vacancy>
  <vacancy id="19">
@@ -345,7 +345,7 @@ AnvilEight is Python development outsourcing company that provides custom softwa
    </city>
   </cities>
   <info>
-   Our Client, a FinTech company is now looking for a Full-Stack Engineer to join their team.
+   Our Client, aï¿½FinTech company isï¿½now looking for aï¿½Full-Stack Engineer toï¿½join their team.
   </info>
  </vacancy>
 </vacancy-list>

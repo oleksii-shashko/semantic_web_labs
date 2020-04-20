@@ -1,5 +1,18 @@
 from bs4 import BeautifulSoup
+import lxml.etree as ET
 import requests
+
+
+TRANSLATER = {
+    "удаленно": "remote",
+    "Киев": "Kiev",
+    "Львов": "Lviv",
+    "Одесса": "Odessa",
+    "New York City": "New York City",
+    "Харьков": "Kharkov",
+    "за рубежом": "abroad",
+    "Днепр": "Dnepr"
+}
 
 
 def make_xml(names: list, company: list, cities: list, info: list):
@@ -21,7 +34,7 @@ def make_xml(names: list, company: list, cities: list, info: list):
         cities_tag = soup.new_tag("cities")
         for city_item in cities[i]:
             city = soup.new_tag("city")
-            city.string = city_item
+            city.string = TRANSLATER[city_item]
 
             cities_tag.append(city)
         vacancy.append(cities_tag)
@@ -57,7 +70,9 @@ def generate_xml(url: str):
         info.append(item.find("div", {"class": "sh-info"}).text)
 
     xml_data = make_xml(names, company, cities, info)
-    xml_data_str = xml_data.prettify("utf-8").decode("utf-8").replace("\u25cf", "-")
+    temp = ET.fromstring(xml_data.prettify("utf-8"))
+
+    xml_data_str = ET.tostring(temp, encoding="utf-8", xml_declaration=True).decode("utf-8").replace("\u2028", "-")
 
     with open("dou_vacancies.xml", "w") as file:
         file.write(xml_data_str)
