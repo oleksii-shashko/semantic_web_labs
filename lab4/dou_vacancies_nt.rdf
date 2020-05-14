@@ -1,0 +1,378 @@
+_:Nc5e5c29e530f472dbb8105718a89aeb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/creator> "Go interactive" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/identifier> "34" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/creator> "LITSLINK" .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/title> "Php or\u00A0Python Developer for Web Scraping" .
+_:Nfa9a625ee7f140a286a15cf9a7a56f0c <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/creator> "\"\u0406\u041D\u0424\u041E\u0422\u0415\u0425\"" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/description> "2+\u00A0years of\u00A0experience working with Python; Experience working with Django/Flask; Experience developing client-server applications and RESTful services; Good spoken English." .
+_:Ncf904a35289d45a695cf6663ee573f01 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://description.com/my_schema/cities> _:N9594ed33e2fd4c4ca4ad94fc498f28b8 .
+_:N6ec5cb61518843f89fb9e4959804b857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/title> "Python Web Developer (1+\u00A0years experience)" .
+_:Nfa9a625ee7f140a286a15cf9a7a56f0c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+_:N7895b14e39e94921bbde2291cabf8461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/description> "Wizer is\u00A0a\u00A0consumer research company that leverages powerful tools for automation research and data analysis. Holistic and comprehensive insights from them allows grow &\u00A0compete many world-clues brands such as\u00A0Reebok, Johnson and Johnson, Wilson." .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/identifier> "28" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/description> "\u0412\u00A0\u0434\u0430\u043D\u043D\u044B\u0439 \u043C\u043E\u043C\u0435\u043D\u0442 \u043D\u0430\u043C \u043D\u0435\u00A0\u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u043B\u044E\u0434\u0435\u0439 \u0434\u043B\u044F \u0440\u0430\u0431\u043E\u0442\u044B \u043D\u0430\u00A0AdTech \u0440\u044B\u043D\u043E\u043A\u00A0UK, \u0432\u00A0\u043A\u043E\u0442\u043E\u0440\u043E\u043C \u043C\u044B\u00A0\u0432\u0438\u0434\u0438\u043C \u0432\u044B\u0441\u043E\u043A\u0438\u0439 \u0441\u043F\u0440\u043E\u0441 \u043D\u0430\u00A0\u0430\u043A\u0442\u0438\u0432\u043D\u044B\u0445 Python \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0441\u0442\u043E\u0432 \u0441\u00A0\u043D\u0430\u0432\u044B\u043A\u0430\u043C\u0438 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0434\u0430\u043D\u043D\u044B\u0445, \u043F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F ETL \u0441\u0438\u0441\u0442\u0435\u043C \u0438\u00A0\u0438\u043D\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u043E\u0432 \u0441\u0432\u043E\u0435\u0439 \u0440\u0430\u0431\u043E\u0442\u044B \u0441\u00A0\u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u043C\u0438 \u0432\u0435\u0431 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430\u043C\u0438." .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/identifier> "11" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/creator> "PLINK.GG" .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://description.com/my_schema/cities> _:N0532aa1ecb88454aa3d663ae3e5d72b2 .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:N10d325df3ec142e784fd76784b7b8d47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/identifier> "23" .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/creator> "PLVision" .
+_:N9594ed33e2fd4c4ca4ad94fc498f28b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+_:N35c95e90647a4383ba0049c0c0edd55e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://description.com/my_schema/cities> _:Ne9ab574180c84c91b6e298572b18326f .
+_:Na3a4395f702b4d02b0c2bc3928c21194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/creator> "Uvik Software" .
+_:Nc4293642440b4d2c8f84509860c7222f <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://description.com/my_schema/cities> _:N3656bf0844cc4d3ead98870bfe3e2d01 .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:Naeeb59fa7fb04acb84888d5e1c524630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://description.com/my_schema/cities> _:Ned20eba3db824f70ae996ffa2b9ba91c .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://description.com/my_schema/cities> _:N4dd34d509686474781d82777ac757958 .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/title> "Senior Python Engineer" .
+_:N06c2f25121aa44d48fa025a4c581524d <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/title> "Python Web Developer" .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:N5ed4f6c144bd4052b0c0206464e60ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0427\u0435\u0440\u043D\u0438\u0433\u043E\u0432" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/identifier> "0" .
+_:N8daa522b01f542dba0c89a58ffaff41e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://description.com/my_schema/cities> _:N10d325df3ec142e784fd76784b7b8d47 .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:Ned20eba3db824f70ae996ffa2b9ba91c <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/creator> "Axon" .
+_:Nd7ad08af86344bdca457107126cd9c9d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+_:N0532aa1ecb88454aa3d663ae3e5d72b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://description.com/my_schema/cities> _:N1313a4c9952a4e23bff73483e8f3a796 .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:Na91cedebaf744dfaab9d65f9caa94df6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://description.com/my_schema/cities> _:Nbc8d0d790e854ceb8a30f88963a76530 .
+_:Na2aba4b828534fcdba75b9962ea786a4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/description> "PortaOne\u00A0\u2014 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u0430\u044F \u0443\u043A\u0440\u0430\u0438\u043D\u0446\u0430\u043C\u0438 \u0432\u00A01997\u00A0\u0433\u043E\u0434\u0443, \u0442\u0435\u043F\u0435\u0440\u044C \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043C\u0438\u0440\u043E\u0432\u044B\u043C \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\u043E\u043C \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u0442\u0435\u043B\u0435\u043A\u043E\u043C\u043C\u0443\u043D\u0438\u043A\u0430\u0446\u0438\u0439." .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:N5ed4f6c144bd4052b0c0206464e60ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/identifier> "20" .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://description.com/my_schema/cities> _:N53152551cc714865adb564932cc96a3c .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/creator> "KitRUM" .
+_:Nc4293642440b4d2c8f84509860c7222f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/description> "\u2022 2+\u00A0year experience in\u00A0Python development \u2022 Knowledge of\u00A0REST API \u2022 Strong SQL knowledge \u2022 Software development methodology and software lifecycle processes knowledge \u2022 Experience in\u00A0Git\u2019s workflow (branching, merging, rebasing etc.); \u2022 Ability to\u00A0read technical and requirements..." .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/language> "ru/ua" .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/title> "Middle/Middle+ Python Back-End Developer" .
+_:N10d325df3ec142e784fd76784b7b8d47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:N5ed4f6c144bd4052b0c0206464e60ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/description> "You will be\u00A0building a\u00A0Multi-project Management System that will allow companies to\u00A0determine project tasks, create a\u00A0schedule, assign resources, and identify and track issues and risks on\u00A0projects." .
+_:N1313a4c9952a4e23bff73483e8f3a796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:Na2aba4b828534fcdba75b9962ea786a4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/creator> "Qencode" .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/description> "\u041C\u044B\u00A0\u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u043C \u0438\u0433\u0440\u043E\u0432\u044B\u0435 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439 \u0432\u00A0\u0440\u0430\u0437\u043D\u044B\u0445 \u0438\u0433\u0440\u043E\u0432\u044B\u0445 \u0441\u043E\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430\u0445. \u0410\u0433\u0440\u0435\u0433\u0438\u0440\u0443\u0435\u043C \u0434\u0430\u043D\u043D\u044B\u0435 \u0438\u0437\u00A0\u0440\u0430\u0437\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C, \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u043C \u0432\u00A0\u043E\u0434\u043D\u043E\u043C \u043C\u0435\u0441\u0442\u0435 \u0438\u00A0\u043E\u0442\u0441\u043B\u0435\u0436\u0438\u0432\u0430\u0435\u043C \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F. \u041F\u0440\u043E\u0435\u043A\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u043A\u0440\u0443\u043F\u043D\u043E\u0439 \u0433\u0435\u0439\u043C\u0434\u0435\u0432 \u0441\u0442\u0443\u0434\u0438\u0435\u0439." .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:Na2aba4b828534fcdba75b9962ea786a4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0423\u0436\u0433\u043E\u0440\u043E\u0434" .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/title> "Middle Python Developer" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/title> "Senior Python Developer" .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:Ned20eba3db824f70ae996ffa2b9ba91c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+_:N9594ed33e2fd4c4ca4ad94fc498f28b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/title> "Full-Stack Web Developer (Python backend)" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://description.com/my_schema/cities> _:N9d893fdf5e9c45b2b30dbf7998a431fb .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/creator> "Magetic AI" .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://description.com/my_schema/cities> _:Na91cedebaf744dfaab9d65f9caa94df6 .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/creator> "Go Wombat Team" .
+_:N4dd34d509686474781d82777ac757958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:Nae9cb9ecd708444c91f6d7a2983ff277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/identifier> "16" .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://description.com/my_schema/cities> _:Na2aba4b828534fcdba75b9962ea786a4 .
+_:N7895b14e39e94921bbde2291cabf8461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0425\u0430\u0440\u044C\u043A\u043E\u0432" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/identifier> "22" .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://description.com/my_schema/cities> _:Ncbf74d1c702d4c47af545ffb5e659e0e .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:N0532aa1ecb88454aa3d663ae3e5d72b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/identifier> "36" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://description.com/my_schema/cities> _:N36c2d0840646421fb842f230e9de4812 .
+_:Ncbf74d1c702d4c47af545ffb5e659e0e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/creator> "Medstar Solutions LLC" .
+_:Naeeb59fa7fb04acb84888d5e1c524630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/title> "Python Software Developer" .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/creator> "Kapowai" .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/title> "Senior Python Developer, backend" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/creator> "GFE-Solutions" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/description> "Our friends is\u00A0a\u00A0VC-backed startup creating a\u00A0system that lets one voice sound like another, focused on\u00A0very high-quality output and usability for demanding applications like\u00A0TV and movies, call centers, and gaming." .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/title> "ML\u00A0Engineer C++/Python" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/identifier> "30" .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/description> "Betinvest LTD\u00A0is an\u00A0international betting and gaming solutions provider with 20\u00A0years of\u00A0industry experience. We\u00A0are incorporated in\u00A0the United Kingdom and currently serve clients across four continents\u00A0\u2014 Europe, Asia, Africa and North America." .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/identifier> "7" .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:N2c4a2fe1f5824560a7e78e37e9ac0ca0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0425\u0430\u0440\u044C\u043A\u043E\u0432" .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://description.com/my_schema/cities> _:N7895b14e39e94921bbde2291cabf8461 .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/identifier> "14" .
+_:N2232386a5943436980dfc0814a2b069e <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+_:N7895b14e39e94921bbde2291cabf8461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/identifier> "33" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/description> "Looking for a\u00A0developer for a\u00A0healthcare project. Most work will be\u00A0on\u00A0the back-end system admin, data ingestion/processing and API development" .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/identifier> "5" .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://description.com/my_schema/cities> _:Nd4fbac19b5cb4fb583c9b18f509a15bf .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/identifier> "29" .
+_:Ne9ab574180c84c91b6e298572b18326f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/identifier> "21" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/title> "Senior Back-End Developer (Python)" .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:N30fc6227f110413ca42c362f4cd75a4a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+_:N3d3c7966e65640899b999226fa56dd8e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+_:Nf6c7df44dfa84dfd80c7e131fbef96a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:Na91cedebaf744dfaab9d65f9caa94df6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/creator> "Ubiquiti Inc" .
+_:N9d893fdf5e9c45b2b30dbf7998a431fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://description.com/my_schema/cities> _:Nf6c7df44dfa84dfd80c7e131fbef96a2 .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/description> "Client is\u00A0a\u00A0technology company that designs and develops digital music products and services and a\u00A0world leader in\u00A0music usage monitoring currently working with\u00A030% of\u00A0all world Copyright Collecting Societies." .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://description.com/my_schema/cities> _:N06c2f25121aa44d48fa025a4c581524d .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/creator> "Design and Test Lab" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://description.com/my_schema/cities> _:N2232386a5943436980dfc0814a2b069e .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/title> "Senior Software Engineer (Python)\u00A0\u2014 building a\u00A0complex distributed travel application" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://description.com/my_schema/cities> _:Nc4293642440b4d2c8f84509860c7222f .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/description> "What you will be\u00A0doing:  Crafting an\u00A0elegant, resilient, and useful distributed system for booking business travels.  You certainly:  Have experience working with Python and a\u00A0strong desire to\u00A0improve your skills." .
+_:N30fc6227f110413ca42c362f4cd75a4a <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0425\u0430\u0440\u044C\u043A\u043E\u0432" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/identifier> "17" .
+_:N4dd34d509686474781d82777ac757958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/title> "Middle Python Developer" .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/title> "Senior Python Developer" .
+_:N3656bf0844cc4d3ead98870bfe3e2d01 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/title> "Full Stack Engineer\u00A0/ Web Developer (PHP, Python)" .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://description.com/my_schema/cities> _:N02fb248c72b24b66a0dd85ef56f1ff8d .
+_:N36c2d0840646421fb842f230e9de4812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/identifier> "3" .
+_:Nd4fbac19b5cb4fb583c9b18f509a15bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0425\u0430\u0440\u044C\u043A\u043E\u0432" .
+_:Nf6c7df44dfa84dfd80c7e131fbef96a2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/identifier> "24" .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://description.com/my_schema/cities> _:N5ed4f6c144bd4052b0c0206464e60ffd .
+_:N4dd34d509686474781d82777ac757958 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/title> "Python Developer JB-260" .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/creator> "FigLeaf" .
+_:Nc5e5c29e530f472dbb8105718a89aeb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:Nc5e5c29e530f472dbb8105718a89aeb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/language> "ru/ua" .
+_:N53152551cc714865adb564932cc96a3c <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://description.com/my_schema/cities> _:N6ec5cb61518843f89fb9e4959804b857 .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/identifier> "39" .
+_:N7895b14e39e94921bbde2291cabf8461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041E\u0434\u0435\u0441\u0441\u0430" .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/description> "\u0421\u0435\u0439\u0447\u0430\u0441 \u043C\u044B\u00A0\u0438\u0449\u0435\u043C Python Software Engineer \u0432\u00A0\u0441\u0432\u043E\u044E \u043A\u043E\u043C\u0430\u043D\u0434\u0443 \u043D\u0430\u00A0\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u0441\u00A0\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u043C Python\u00A03.8, Postgresql, Sqlalchemy, Connexion, Swagger, Docker, Amazon Web Services, Google Cloud Platform, unittests, pytests \u0434\u043B\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0441\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0445 \u0441\u0435\u0442\u0435\u0439.  1. \u041D\u0430\u00A0\u043F\u0440\u043E\u0435\u043A\u0442\u0435 \u0440\u0443\u0441\u0441\u043A\u043E\u044F\u0437\u044B\u0447\u043D\u044B\u0439 \u043C\u0435\u043D\u0435\u0434\u0436\u043C\u0435\u043D\u0442." .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://description.com/my_schema/cities> _:N2c4a2fe1f5824560a7e78e37e9ac0ca0 .
+_:N2232386a5943436980dfc0814a2b069e <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+_:Nbc8d0d790e854ceb8a30f88963a76530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0425\u0430\u0440\u044C\u043A\u043E\u0432" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://description.com/my_schema/cities> _:N3d3c7966e65640899b999226fa56dd8e .
+_:N9594ed33e2fd4c4ca4ad94fc498f28b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/creator> "PortaOne" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/description> "Our Stack  - Testing (Jest, Sinon) - Analytics, Error Capturing (Google, Rollbar) - Languages (Javascript, Python) - Frameworks (React/Redux, Django) - AWS (RDS, EC2, S3) - Visualization library (D3) - iOS (Viper/Swift) - Android (MVVM/Kotlin)  Building the ecosystem for care..." .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://description.com/my_schema/cities> _:Nd7ad08af86344bdca457107126cd9c9d .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/creator> "KnubiSoft" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://description.com/my_schema/cities> _:N8260995284e54dce9ed7f0bc3968005b .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/description> "We\u00A0are developing the world\u2019s first speech recognition technology designed to\u00A0understand non-standard speech.  We\u00A0build products that allow people with speech disabilities associated with various backgrounds to\u00A0communicate using their own voices." .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:Nf88aaf37db924f58ac578e9420814bfc <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+_:N2232386a5943436980dfc0814a2b069e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:N30fc6227f110413ca42c362f4cd75a4a <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0423\u0436\u0433\u043E\u0440\u043E\u0434" .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/identifier> "9" .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://description.com/my_schema/cities> _:Nfa9a625ee7f140a286a15cf9a7a56f0c .
+_:N3d3c7966e65640899b999226fa56dd8e <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://description.com/my_schema/cities> _:N8daa522b01f542dba0c89a58ffaff41e .
+<https://jobs.dou.ua/companies/plink-gg/vacancies/108660/> <http://purl.org/dc/elements/1.1/language> "ru/ua" .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/creator> "Titanium Labs Inc" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://description.com/my_schema/cities> _:Ncf904a35289d45a695cf6663ee573f01 .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/creator> "A123Lab" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:N02fb248c72b24b66a0dd85ef56f1ff8d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/identifier> "35" .
+_:N6f31dcfb3926493b81c42216b1593bec <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/identifier> "12" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/identifier> "19" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/identifier> "26" .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:Naeeb59fa7fb04acb84888d5e1c524630 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+_:Nbc8d0d790e854ceb8a30f88963a76530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/creator> "OpenVPN" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/title> "Senior Python Engineer for Networking Solutions" .
+_:Na3a4395f702b4d02b0c2bc3928c21194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/identifier> "4" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:Nbc8d0d790e854ceb8a30f88963a76530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:N02fb248c72b24b66a0dd85ef56f1ff8d <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:N06c2f25121aa44d48fa025a4c581524d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/uvik-software/vacancies/54675/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/creator> "BetInvest Ltd" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/description> "A\u00A0fast-growing US\u00A0(LA) startup focusing on\u00A0personalized e-commerce shopping. A\u00A0conversational commerce platform scales personalized conversations with its customers through NLP." .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://purl.org/dc/elements/1.1/identifier> "2" .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/title> "Technical Lead\u00A0/ Senior Back-End Engineer" .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/description> "Requirements: \u2022 Commercial development experience of\u00A0at\u00A0least 5\u00A0years; \u2022 Experience in\u00A0designing highly loaded systems; \u2022 Knowledge of\u00A0PostgreSQL and MongoDB; \u2022 Experience in\u00A0the deployment and maintenance of\u00A0systems on\u00A0the AMS; \u2022 Deep understanding of\u00A0containerization (Docker);..." .
+_:N9d893fdf5e9c45b2b30dbf7998a431fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0414\u043D\u0435\u043F\u0440" .
+_:Nae9cb9ecd708444c91f6d7a2983ff277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+_:N7895b14e39e94921bbde2291cabf8461 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/identifier> "8" .
+_:N6ec5cb61518843f89fb9e4959804b857 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+_:N1313a4c9952a4e23bff73483e8f3a796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/description> "Job Summary  As\u00A0a\u00A0member of\u00A0our Research Team, you will be\u00A0solving challenging problems. You will be\u00A0engaged in\u00A0an\u00A0iterated process of\u00A0data preparation, prototyping and/or implementation, measurement, and deploying your solution." .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/creator> "Data Science UA" .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/title> "Junior/Middle Python Verification Engineer" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://description.com/my_schema/cities> _:Nae9cb9ecd708444c91f6d7a2983ff277 .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/title> "\u0406\u043D\u0436\u0435\u043D\u0435\u0440 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F, \u0437\u043D\u0430\u0439\u043E\u043C\u0438\u0439 \u0437\u00A0Python" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:Nf88aaf37db924f58ac578e9420814bfc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/description> "\u043F\u0440\u043E\u0435\u043A\u0442 under NDA" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:N53152551cc714865adb564932cc96a3c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/creator> "ITRex Group" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/title> "Python (Django) Developer" .
+_:N06c2f25121aa44d48fa025a4c581524d <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+_:N5ed4f6c144bd4052b0c0206464e60ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0421\u0443\u043C\u044B" .
+_:Nae9cb9ecd708444c91f6d7a2983ff277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/language> "ru/ua" .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/description> "FigLeaf is\u00A0the first-of-its-kind cross-platform App that empowers people with the choice to\u00A0be\u00A0private online." .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/identifier> "18" .
+_:N36c2d0840646421fb842f230e9de4812 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/title> "Python Software Engineer (Backend)" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/creator> "Ring Ukraine" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:Ncbf74d1c702d4c47af545ffb5e659e0e <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0427\u0435\u0440\u043A\u0430\u0441\u0441\u044B" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/title> "Senior Python Developer" .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/description> "If\u00A0you have ever used a\u00A0VPN service, chances are it\u00A0was based on\u00A0OpenVPN, an\u00A0open-source protocol that we\u00A0first developed over 16\u00A0years ago and that has since become the de-facto industry standard implemented in\u00A0the majority of\u00A0commercial VPN software." .
+_:Ncf904a35289d45a695cf6663ee573f01 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/subject> "work" .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/identifier> "37" .
+<https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/> <http://purl.org/dc/elements/1.1/description> "-	4+\u00A0years of\u00A0professional experience as\u00A0a\u00A0Data Engineer (Python Developer), including deploying and maintaining code in\u00A0a\u00A0production environment -	Experience with Python frameworks (e.g." .
+<https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:N8260995284e54dce9ed7f0bc3968005b <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041B\u044C\u0432\u043E\u0432" .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/description> "Qencode\u00A0\u2014 \u044D\u0442\u043E \u0432\u044B\u0441\u043E\u043A\u043E\u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0435 \u043E\u0431\u043B\u0430\u0447\u043D\u043E\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u0434\u043B\u044F \u0442\u0440\u0430\u043D\u0441\u043A\u043E\u0434\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u0432\u0438\u0434\u0435\u043E, \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u043A\u043B\u0438\u0435\u043D\u0442\u0430\u043C \u0441\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0442\u044C \u0431\u043E\u043B\u0435\u0435\u00A080% \u0437\u0430\u0442\u0440\u0430\u0442 \u043D\u0430\u00A0\u0442\u0440\u0430\u043D\u0441\u043A\u043E\u0434\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435." .
+<https://jobs.dou.ua/companies/kitrum/vacancies/121104/> <http://description.com/my_schema/cities> _:N30fc6227f110413ca42c362f4cd75a4a .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/betinvest/vacancies/111788/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:N5ed4f6c144bd4052b0c0206464e60ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/go-interactive/vacancies/119404/> <http://purl.org/dc/elements/1.1/identifier> "15" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://description.com/my_schema/cities> _:Naeeb59fa7fb04acb84888d5e1c524630 .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/creator> "AllStars-IT Ukraine" .
+<https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/> <http://purl.org/dc/elements/1.1/creator> "BCD TripTech" .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/identifier> "27" .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/> <http://purl.org/dc/elements/1.1/description> "MAGETIC\u00A0AI\u00A0\u2014 R&D development center, where we\u00A0generate Artificial Intelligence Technologies, with machine learning &\u00A0deep learning abilities to\u00A0systems with a\u00A0high mass of\u00A0DB activity, converting this data into insights, and autonomously acting on\u00A0these insights for..." .
+_:Nd7ad08af86344bdca457107126cd9c9d <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+_:N6f31dcfb3926493b81c42216b1593bec <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/title> "Senior Python Developer" .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://purl.org/dc/elements/1.1/identifier> "31" .
+_:Na2aba4b828534fcdba75b9962ea786a4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0425\u0430\u0440\u044C\u043A\u043E\u0432" .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/identifier> "1" .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/title> "Senior Python QA\u00A0Automation Engineer (Switch Products)" .
+_:N8daa522b01f542dba0c89a58ffaff41e <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041B\u044C\u0432\u043E\u0432" .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/knubisoft/vacancies/121035/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+_:Na004f17246a147d483a838886ea8500b <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+_:N30fc6227f110413ca42c362f4cd75a4a <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://purl.org/dc/elements/1.1/identifier> "10" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:N8260995284e54dce9ed7f0bc3968005b <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/identifier> "6" .
+_:N35c95e90647a4383ba0049c0c0edd55e <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u041A\u0438\u0435\u0432" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:Na004f17246a147d483a838886ea8500b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://description.com/my_schema/cities> _:N35c95e90647a4383ba0049c0c0edd55e .
+_:N30fc6227f110413ca42c362f4cd75a4a <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/kapowai/vacancies/37302/> <http://purl.org/dc/elements/1.1/publisher> "jobs.dou.ua" .
+<https://jobs.dou.ua/companies/plvision/vacancies/106315/> <http://purl.org/dc/elements/1.1/description> "We\u00A0are a\u00A0software R&D\u00A0firm, specializing in\u00A0Computer Networking, Embedded Development, and the Internet of\u00A0Things, operating on\u00A0the global market since 2007. We\u00A0are looking for a\u00A0talented Software Verification Engineer to\u00A0join the switch\u00A0OS group." .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/description> "\u0414\u041F\u00A0\u00AB\u0406\u041D\u0424\u041E\u0422\u0415\u0425 \u0448\u0443\u043A\u0430\u0454 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0456\u0441\u0442\u0430 \u0440\u043E\u0437\u0440\u043E\u0431\u043D\u0438\u043A\u0430 \u0434\u043B\u044F \u0443\u0447\u0430\u0441\u0442\u0456 \u0443\u00A0\u0440\u043E\u0437\u0440\u043E\u0431\u0446\u0456 \u043F\u0440\u043E\u0435\u043A\u0442\u0443 \u00AB\u041C\u0435\u0434\u0438\u0447\u043D\u043E\u0457 \u0456\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u0439\u043D\u043E\u0457 \u0441\u0438\u0441\u0442\u0435\u043C\u0438\u00BB." .
+<https://jobs.dou.ua/companies/openvpn/vacancies/83880/> <http://purl.org/dc/elements/1.1/identifier> "38" .
+_:N8260995284e54dce9ed7f0bc3968005b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://purl.org/dc/elements/1.1/identifier> "25" .
+<https://jobs.dou.ua/companies/itrex-group/vacancies/121061/> <http://purl.org/dc/elements/1.1/title> "Senior Software (Python) Engineer" .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/language> "ru/ua" .
+<https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/> <http://description.com/my_schema/cities> _:Nf88aaf37db924f58ac578e9420814bfc .
+<https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot> <http://purl.org/dc/elements/1.1/subject> "work" .
+_:Nd4fbac19b5cb4fb583c9b18f509a15bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/a123lab/vacancies/120429/> <http://purl.org/dc/elements/1.1/identifier> "32" .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/format> "text/html" .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://description.com/my_schema/cities> _:N6f31dcfb3926493b81c42216b1593bec .
+_:N3656bf0844cc4d3ead98870bfe3e2d01 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/allstars-it/vacancies/92289/> <http://description.com/my_schema/cities> _:Na3a4395f702b4d02b0c2bc3928c21194 .
+_:Na2aba4b828534fcdba75b9962ea786a4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0443\u0434\u0430\u043B\u0435\u043D\u043D\u043E" .
+_:Ne9ab574180c84c91b6e298572b18326f <http://www.w3.org/1999/02/22-rdf-syntax-ns#li> "\u0418\u0432\u0430\u043D\u043E-\u0424\u0440\u0430\u043D\u043A\u043E\u0432\u0441\u043A" .
+<https://jobs.dou.ua/companies/litslink/vacancies/80388/> <http://purl.org/dc/elements/1.1/description> "We\u00A0look for experienced Python Developer who likes the idea of\u00A0doing a\u00A0bit of\u00A0everything and wants to\u00A0work in\u00A0a\u00A0fast-paced environment." .
+<https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/> <http://purl.org/dc/elements/1.1/description> "\u2014\u00A03\u00A0years of\u00A0software testing experience, at\u00A0least 1\u00A0year of\u00A0QA\u00A0Automation using Python. \u2014\u00A0Strong experience in\u00A0Python, REST API and scripting languages. \u2014\u00A0Strong knowledge of\u00A0software\u00A0QA methodologies, tools and processes. \u2014\u00A0Experience with Jenkins, Git." .
+<https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/> <http://purl.org/dc/elements/1.1/identifier> "13" .
+<https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/> <http://purl.org/dc/elements/1.1/language> "en" .
+_:N2c4a2fe1f5824560a7e78e37e9ac0ca0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> .
+<https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/> <http://purl.org/dc/elements/1.1/language> "en" .
+<https://jobs.dou.ua/companies/figleaf/vacancies/120951/> <http://description.com/my_schema/cities> _:Nc5e5c29e530f472dbb8105718a89aeb8 .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/language> "ru/ua" .
+<https://jobs.dou.ua/companies/portaone/vacancies/120874/> <http://purl.org/dc/elements/1.1/title> "Middle/Senior Python Software Engineer" .
+<https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/> <http://description.com/my_schema/cities> _:Na004f17246a147d483a838886ea8500b .
+

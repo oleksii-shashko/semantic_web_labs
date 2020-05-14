@@ -2,350 +2,880 @@
 <vacancy-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\vacancies.xsd">
  <vacancy id="0">
   <name>
-   Middle Python Developer
+   Full Stack Engineer / Web Developer (PHP, Python)
   </name>
   <company>
-   WePlay! Esports
+   Qencode
   </company>
   <cities>
    <city>
-    Kiev
+    удаленно
    </city>
   </cities>
   <info>
-   About�us:
-
-WePlay! Esports is�the first esportainment company in�TECHIIA holding, that combined esports, storytelling and entertainment content. We�want to�surprise and entertain every esports fan and attract new ones.
+   Qencode — это высокоэффективное облачное решение для транскодирования видео, которое позволяет клиентам сэкономить более 80% затрат на транскодирование.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot
+  </job_url>
  </vacancy>
  <vacancy id="1">
   <name>
-   Automatic Speech Recognition Developer
+   Senior Python Developer
   </name>
   <company>
-   Omilia Natural Language Solutions UA Ltd
+   Titanium Labs Inc
   </company>
   <cities>
    <city>
-    Kiev
+    Черкассы
    </city>
   </cities>
   <info>
-   Omilia is�an�international company with offices in�Athens, Kyiv, Crete and Prague a.o.
-Our customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.
+   We are developing the world’s first speech recognition technology designed to understand non-standard speech. 
+We build products that allow people with speech disabilities associated with various backgrounds to communicate using their own voices.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/
+  </job_url>
  </vacancy>
  <vacancy id="2">
   <name>
-   Python Developer
+   Senior Python Developer
   </name>
   <company>
-   Omilia Natural Language Solutions UA Ltd
+   KitRUM
   </company>
   <cities>
    <city>
-    Kiev
+    Киев
+   </city>
+   <city>
+    Харьков
+   </city>
+   <city>
+    Ужгород
+   </city>
+   <city>
+    удаленно
    </city>
   </cities>
   <info>
-   Omilia is�an�international company with offices in�Athens, Kyiv, Crete and Prague a.o.
-Our customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.
+   Client is a technology company that designs and develops digital music products and services and a world leader in music usage monitoring currently working with 30% of all world Copyright Collecting Societies.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/kitrum/vacancies/121104/
+  </job_url>
  </vacancy>
  <vacancy id="3">
   <name>
-   Junior Software Engineer
+   Python Software Engineer (Backend)
   </name>
   <company>
-   Very Good Security
+   Design and Test Lab
   </company>
   <cities>
    <city>
-    Lviv
+    Харьков
+   </city>
+   <city>
+    удаленно
    </city>
   </cities>
   <info>
-   At�Very Good Security (�VGS�) we�are on�a�mission to�protect the world�s sensitive data�� and we�d love to�have you along for this journey.
+   Сейчас мы ищем Python Software Engineer в свою команду на проекты с использованием Python 3.8, Postgresql, Sqlalchemy, Connexion, Swagger, Docker, Amazon Web Services, Google Cloud Platform, unittests, pytests для разработки социальных сетей.
+
+1. На проекте русскоязычный менеджмент.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/
+  </job_url>
  </vacancy>
  <vacancy id="4">
+  <name>
+   Python Software Developer
+  </name>
+  <company>
+   BetInvest Ltd
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   Betinvest LTD is an international betting and gaming solutions provider with 20 years of industry experience. We are incorporated in the United Kingdom and currently serve clients across four continents — Europe, Asia, Africa and North America.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/betinvest/vacancies/111788/
+  </job_url>
+ </vacancy>
+ <vacancy id="5">
   <name>
    Middle Python Developer
   </name>
   <company>
-   TS Tech
+   Uvik Software
   </company>
   <cities>
    <city>
-    Kiev
+    Ивано-Франковск
    </city>
   </cities>
   <info>
-   ����������� IT���������, ����������� ������� ����� 9����.
+   2+ years of experience working with Python;
+Experience working with Django/Flask;
+Experience developing client-server applications and RESTful services;
+Good spoken English.
   </info>
- </vacancy>
- <vacancy id="5">
-  <name>
-   Python Instructor�/ Developer (Mate academy)
-  </name>
-  <company>
-   Genesis
-  </company>
-  <cities>
-   <city>
-    Kiev
-   </city>
-  </cities>
-  <info>
-   Genesis�� is�a�full-cycle international product ��-company. -We�are the most high-loaded company in�the country and one of�the largest partner of�Facebook, Google, Snapchat and Apple in�the CEE region.
-  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/uvik-software/vacancies/54675/
+  </job_url>
  </vacancy>
  <vacancy id="6">
   <name>
-   Junior Developer in�Test (Python)
+   Senior Software (Python) Engineer
   </name>
   <company>
-   Ajax Systems
+   ITRex Group
   </company>
   <cities>
    <city>
-    Kiev
+    Киев
+   </city>
+   <city>
+    удаленно
    </city>
   </cities>
   <info>
-   ��, Ajax Systems, ��������� ������� ������� ��������� smart home. ������, ��� ����� ������� ���� ��������� ���������, �������������� �������������, ��������� ���������� �������������. ³���� ⠳������� ����� ��������� �������, ������ ������.
+   A fast-growing US (LA) startup focusing on personalized e-commerce shopping. A conversational commerce platform scales personalized conversations with its customers through NLP.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/itrex-group/vacancies/121061/
+  </job_url>
  </vacancy>
  <vacancy id="7">
   <name>
-   Middle/Senior Django Developer
+   Middle Python Developer
   </name>
   <company>
-   Dataforest
+   KnubiSoft
   </company>
   <cities>
    <city>
-    Kiev
+    Харьков
    </city>
   </cities>
   <info>
-   DataForest� we�are experts committed to�creating bespoke data-driven solutions for the variety of�corporate clients over the world.
+   Looking for a developer for a healthcare project. Most work will be on the back-end system admin, data ingestion/processing and API development
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/knubisoft/vacancies/121035/
+  </job_url>
  </vacancy>
  <vacancy id="8">
   <name>
-   Python/Django Middle-Senior Backend Developer
+   Python Web Developer
   </name>
   <company>
-   Beemster Team
+   Go Wombat Team
   </company>
   <cities>
    <city>
-    remote
+    Днепр
    </city>
   </cities>
   <info>
-   We�are looking for skilled developer with the backend development experience using Python/Django with some knowledge of�blockchain and smart contracts. Preferably from Ukraine or�Eastern Europe.
+   В данный момент нам не хватает людей для работы на AdTech рынок UK, в котором мы видим высокий спрос на активных Python программистов с навыками обработки данных, построения ETL систем и интеграции результатов своей работы с различными веб платформами.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/
+  </job_url>
  </vacancy>
  <vacancy id="9">
   <name>
-   Python Developer
+   Senior Python Developer
   </name>
   <company>
-   The Product Engine
+   GFE-Solutions
   </company>
   <cities>
    <city>
-    Odessa
+    Киев
+   </city>
+   <city>
+    удаленно
    </city>
   </cities>
   <info>
-   Python knowledge
-Experience in�development of�high scale and high performance applications
-Understanding of�Microservices, Enterprise web applications, Serverless Architecture
-Spoken English knowledge (intermediate or�better)
+   -	4+ years of professional experience as a Data Engineer (Python Developer), including deploying and maintaining code in a production environment
+-	Experience with Python frameworks (e.g.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/
+  </job_url>
  </vacancy>
  <vacancy id="10">
   <name>
-   Senior Software Engineer, Healthcare Data Ingestion (remote work role)
+   Python Web Developer (1+ years experience)
   </name>
   <company>
-   Paige
+   Axon
   </company>
   <cities>
    <city>
-    New York City
-   </city>
-   <city>
-    remote
+    Киев
    </city>
   </cities>
   <info>
-   We�re seeking a�creative Senior Software Engineer, Healthcare Data Ingestion who enjoys implementing scalable and interoperable applications and systems to�join our Engineering Team.
+   You will be building a Multi-project Management System that will allow companies to determine project tasks, create a schedule, assign resources, and identify and track issues and risks on projects.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/
+  </job_url>
  </vacancy>
  <vacancy id="11">
   <name>
-   Senior Python Engineer #7319
+   ML Engineer C++/Python
   </name>
   <company>
-   Lohika
+   Ring Ukraine
   </company>
   <cities>
    <city>
-    Kiev
+    Киев
    </city>
   </cities>
   <info>
-   ABOUT THE PROJECT: 
-Our customer takes the leading position in�advanced data analytics and engineering expertise.
+   Job Summary
+
+As a member of our Research Team, you will be solving challenging problems. You will be engaged in an iterated process of data preparation, prototyping and/or implementation, measurement, and deploying your solution.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/
+  </job_url>
  </vacancy>
  <vacancy id="12">
   <name>
-   Python developer
+   Full-Stack Web Developer (Python backend)
   </name>
   <company>
-   DDI Development
+   Data Science UA
   </company>
   <cities>
    <city>
-    Kharkov
+    Киев
    </city>
   </cities>
   <info>
-   This year we�celebrated our 12th anniversary. During this period we�have developed more than 200 different web and mobile development projects for our clients worldwide. We�re headquartered in�Kharkiv, Ukraine.
+   Our friends is a VC-backed startup creating a system that lets one voice sound like another, focused on very
+high-quality output and usability for demanding applications like TV and movies, call centers, and gaming.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/
+  </job_url>
  </vacancy>
  <vacancy id="13">
   <name>
-   Senior Data Engineer (Python)
+   Інженер програмного забезпечення, знайомий з Python
   </name>
   <company>
-   Beetroot
+   "ІНФОТЕХ"
   </company>
   <cities>
    <city>
-    Kiev
-   </city>
-   <city>
-    Kharkov
-   </city>
-   <city>
-    Odessa
+    Киев
    </city>
   </cities>
   <info>
-   We�re looking for a�Senior Data Engineer who is�ready to�develop in�a�highly innovative, cutting-edge technology environment. Challenge promised, adventures guaranteed!
+   ДП «ІНФОТЕХ шукає програміста розробника для участі у розробці проекту «Медичної інформаційної системи».
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/
+  </job_url>
  </vacancy>
  <vacancy id="14">
   <name>
-   Senior C++/Python Backend Network Programmer
+   Python Developer JB-260
   </name>
   <company>
-   Dragon`s Lake Entertainment
+   AllStars-IT Ukraine
   </company>
   <cities>
    <city>
-    abroad
+    Киев
    </city>
   </cities>
   <info>
-   We�are a�dynamic and scalable full-cycle Console &amp;�PC�Game Developer and focused on�next gen AAA games creation.
-Our team is�veterans of�the gaming industry and have worked on�well-known world-class games.
+   Wizer is a consumer research company that leverages powerful tools for automation research and data analysis. Holistic and comprehensive insights from them allows grow &amp; compete many world-clues brands such as Reebok, Johnson and Johnson, Wilson.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/allstars-it/vacancies/92289/
+  </job_url>
  </vacancy>
  <vacancy id="15">
   <name>
-   Data Engineer
+   Senior Back-End Developer (Python)
   </name>
   <company>
-   TurnKey Labs
+   Go interactive
   </company>
   <cities>
    <city>
-    Kiev
-   </city>
-   <city>
-    remote
+    Киев
    </city>
   </cities>
   <info>
-   On�behalf of�Persefoni (https://www.persefoni.com/), TurnKey is�looking for a�Data Engineer to�join our technology team.
+   Our Stack
 
-About the Client
+- Testing (Jest, Sinon)
+- Analytics, Error Capturing (Google, Rollbar)
+- Languages (Javascript, Python)
+- Frameworks (React/Redux, Django)
+- AWS (RDS, EC2, S3)
+- Visualization library (D3)
+- iOS (Viper/Swift)
+- Android (MVVM/Kotlin)
 
-Our mission is�the enablement of�every organization and person with the technology to�positively impact the health of�planet Earth.
+Building the ecosystem for care...
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/go-interactive/vacancies/119404/
+  </job_url>
  </vacancy>
  <vacancy id="16">
   <name>
-   Senior/Strong middle Cloud developer
+   Senior Python Engineer
   </name>
   <company>
-   NIX Solutions
+   Medstar Solutions LLC
   </company>
   <cities>
    <city>
-    Kharkov
+    Харьков
    </city>
   </cities>
   <info>
-   � Platform which provides the REST API for the end user to�manage and orchestrate various�ML models (mostly Spark/PySpark based) focused on�different aspects of�healthcare domain (treatment cost estimation, categorisation of�patients, health risk estimation etc);
-�...
+   Requirements:
+• Commercial development experience of at least 5 years;
+• Experience in designing highly loaded systems;
+• Knowledge of PostgreSQL and MongoDB;
+• Experience in the deployment and maintenance of systems on the AMS;
+• Deep understanding of containerization (Docker);...
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/
+  </job_url>
  </vacancy>
  <vacancy id="17">
   <name>
-   Full-stack (Django + React) Developer (middle)
+   Python (Django) Developer
   </name>
   <company>
-   Limestone Digital
+   LITSLINK
   </company>
   <cities>
    <city>
-    Kiev
+    Киев
    </city>
   </cities>
   <info>
-   Our partner is�a�huge company that builds solutions in�the Finance sphere. The idea of�this particular project is�to�help out company with scanning and managing financial documents. There is�already a�third-party solution in�place, so�all the hard work is�done.
+   We look for experienced Python Developer who likes the idea of doing a bit of everything and wants to work in a fast-paced environment.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/litslink/vacancies/80388/
+  </job_url>
  </vacancy>
  <vacancy id="18">
   <name>
-   Python Engineer at�AnvilEight
+   Technical Lead / Senior Back-End Engineer
   </name>
   <company>
-   AnvilEight
+   FigLeaf
   </company>
   <cities>
    <city>
-    Kharkov
+    Киев
+   </city>
+   <city>
+    удаленно
    </city>
   </cities>
   <info>
-   About Us:
-
-AnvilEight is�Python development outsourcing company that provides custom software solutions and mobile development services to�both businesses and individuals.
+   FigLeaf is the first-of-its-kind cross-platform App that empowers people with the choice to be private online.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/figleaf/vacancies/120951/
+  </job_url>
  </vacancy>
  <vacancy id="19">
   <name>
-   Full-Stack Engineer
+   Junior/Middle Python Verification Engineer
   </name>
   <company>
-   bountysourcing
+   PLVision
   </company>
   <cities>
    <city>
-    remote
+    Львов
    </city>
   </cities>
   <info>
-   Our Client, a�FinTech company is�now looking for a�Full-Stack Engineer to�join their team.
+   We are a software R&amp;D firm, specializing in Computer Networking, Embedded Development, and the Internet of Things, operating on the global market since 2007.
+We are looking for a talented Software Verification Engineer to join the switch OS group.
   </info>
+  <job_url>
+   https://jobs.dou.ua/companies/plvision/vacancies/106315/
+  </job_url>
+ </vacancy>
+ <vacancy id="20">
+  <name>
+   Senior Python Developer
+  </name>
+  <company>
+   KitRUM
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    Харьков
+   </city>
+   <city>
+    Ужгород
+   </city>
+   <city>
+    удаленно
+   </city>
+  </cities>
+  <info>
+   Client is a technology company that designs and develops digital music products and services and a world leader in music usage monitoring currently working with 30% of all world Copyright Collecting Societies.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/kitrum/vacancies/121104/
+  </job_url>
+ </vacancy>
+ <vacancy id="21">
+  <name>
+   Python Software Developer
+  </name>
+  <company>
+   BetInvest Ltd
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   Betinvest LTD is an international betting and gaming solutions provider with 20 years of industry experience. We are incorporated in the United Kingdom and currently serve clients across four continents — Europe, Asia, Africa and North America.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/betinvest/vacancies/111788/
+  </job_url>
+ </vacancy>
+ <vacancy id="22">
+  <name>
+   Senior Software (Python) Engineer
+  </name>
+  <company>
+   ITRex Group
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    удаленно
+   </city>
+  </cities>
+  <info>
+   A fast-growing US (LA) startup focusing on personalized e-commerce shopping. A conversational commerce platform scales personalized conversations with its customers through NLP.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/itrex-group/vacancies/121061/
+  </job_url>
+ </vacancy>
+ <vacancy id="23">
+  <name>
+   Senior Python Developer
+  </name>
+  <company>
+   GFE-Solutions
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    удаленно
+   </city>
+  </cities>
+  <info>
+   -	4+ years of professional experience as a Data Engineer (Python Developer), including deploying and maintaining code in a production environment
+-	Experience with Python frameworks (e.g.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/
+  </job_url>
+ </vacancy>
+ <vacancy id="24">
+  <name>
+   Python Web Developer (1+ years experience)
+  </name>
+  <company>
+   Axon
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   You will be building a Multi-project Management System that will allow companies to determine project tasks, create a schedule, assign resources, and identify and track issues and risks on projects.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/
+  </job_url>
+ </vacancy>
+ <vacancy id="25">
+  <name>
+   ML Engineer C++/Python
+  </name>
+  <company>
+   Ring Ukraine
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   Job Summary
+
+As a member of our Research Team, you will be solving challenging problems. You will be engaged in an iterated process of data preparation, prototyping and/or implementation, measurement, and deploying your solution.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/
+  </job_url>
+ </vacancy>
+ <vacancy id="26">
+  <name>
+   Full-Stack Web Developer (Python backend)
+  </name>
+  <company>
+   Data Science UA
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   Our friends is a VC-backed startup creating a system that lets one voice sound like another, focused on very
+high-quality output and usability for demanding applications like TV and movies, call centers, and gaming.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/
+  </job_url>
+ </vacancy>
+ <vacancy id="27">
+  <name>
+   Інженер програмного забезпечення, знайомий з Python
+  </name>
+  <company>
+   "ІНФОТЕХ"
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   ДП «ІНФОТЕХ шукає програміста розробника для участі у розробці проекту «Медичної інформаційної системи».
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/
+  </job_url>
+ </vacancy>
+ <vacancy id="28">
+  <name>
+   Python Developer JB-260
+  </name>
+  <company>
+   AllStars-IT Ukraine
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   Wizer is a consumer research company that leverages powerful tools for automation research and data analysis. Holistic and comprehensive insights from them allows grow &amp; compete many world-clues brands such as Reebok, Johnson and Johnson, Wilson.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/allstars-it/vacancies/92289/
+  </job_url>
+ </vacancy>
+ <vacancy id="29">
+  <name>
+   Senior Back-End Developer (Python)
+  </name>
+  <company>
+   Go interactive
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   Our Stack
+
+- Testing (Jest, Sinon)
+- Analytics, Error Capturing (Google, Rollbar)
+- Languages (Javascript, Python)
+- Frameworks (React/Redux, Django)
+- AWS (RDS, EC2, S3)
+- Visualization library (D3)
+- iOS (Viper/Swift)
+- Android (MVVM/Kotlin)
+
+Building the ecosystem for care...
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/go-interactive/vacancies/119404/
+  </job_url>
+ </vacancy>
+ <vacancy id="30">
+  <name>
+   Python (Django) Developer
+  </name>
+  <company>
+   LITSLINK
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   We look for experienced Python Developer who likes the idea of doing a bit of everything and wants to work in a fast-paced environment.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/litslink/vacancies/80388/
+  </job_url>
+ </vacancy>
+ <vacancy id="31">
+  <name>
+   Technical Lead / Senior Back-End Engineer
+  </name>
+  <company>
+   FigLeaf
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    удаленно
+   </city>
+  </cities>
+  <info>
+   FigLeaf is the first-of-its-kind cross-platform App that empowers people with the choice to be private online.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/figleaf/vacancies/120951/
+  </job_url>
+ </vacancy>
+ <vacancy id="32">
+  <name>
+   Php or Python Developer for Web Scraping
+  </name>
+  <company>
+   A123Lab
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    Харьков
+   </city>
+   <city>
+    Одесса
+   </city>
+   <city>
+    удаленно
+   </city>
+  </cities>
+  <info>
+   проект under NDA
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/a123lab/vacancies/120429/
+  </job_url>
+ </vacancy>
+ <vacancy id="33">
+  <name>
+   Senior Software Engineer (Python) — building a complex distributed travel application
+  </name>
+  <company>
+   BCD TripTech
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    удаленно
+   </city>
+  </cities>
+  <info>
+   What you will be doing: 
+Crafting an elegant, resilient, and useful distributed system for booking business travels.
+
+You certainly:
+
+Have experience working with Python and a strong desire to improve your skills.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/
+  </job_url>
+ </vacancy>
+ <vacancy id="34">
+  <name>
+   Middle/Senior Python Software Engineer
+  </name>
+  <company>
+   PortaOne
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    Сумы
+   </city>
+   <city>
+    Чернигов
+   </city>
+   <city>
+    удаленно
+   </city>
+  </cities>
+  <info>
+   PortaOne — компания созданная украинцами в 1997 году, теперь является мировым разработчиком программного обеспечения для современных телекоммуникаций.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/portaone/vacancies/120874/
+  </job_url>
+ </vacancy>
+ <vacancy id="35">
+  <name>
+   Senior Python QA Automation Engineer (Switch Products)
+  </name>
+  <company>
+   Ubiquiti Inc
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   — 3 years of software testing experience, at least 1 year of QA Automation using Python.
+— Strong experience in Python, REST API and scripting languages.
+— Strong knowledge of software QA methodologies, tools and processes.
+— Experience with Jenkins, Git.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/
+  </job_url>
+ </vacancy>
+ <vacancy id="36">
+  <name>
+   Senior Python Developer
+  </name>
+  <company>
+   Magetic AI
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   MAGETIC AI — R&amp;D development center, where we generate Artificial Intelligence Technologies, with machine learning &amp; deep learning abilities to systems with a high mass of DB activity, converting this data into insights, and autonomously acting on these insights for...
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/
+  </job_url>
+ </vacancy>
+ <vacancy id="37">
+  <name>
+   Middle/Middle+ Python Back-End Developer
+  </name>
+  <company>
+   Kapowai
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   • 2+ year experience in Python development
+• Knowledge of REST API
+• Strong SQL knowledge
+• Software development methodology and software lifecycle processes knowledge
+• Experience in Git’s workflow (branching, merging, rebasing etc.);
+• Ability to read technical and requirements...
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/kapowai/vacancies/37302/
+  </job_url>
+ </vacancy>
+ <vacancy id="38">
+  <name>
+   Senior Python Engineer for Networking Solutions
+  </name>
+  <company>
+   OpenVPN
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+   <city>
+    Львов
+   </city>
+  </cities>
+  <info>
+   If you have ever used a VPN service, chances are it was based on OpenVPN, an open-source protocol that we first developed over 16 years ago and that has since become the de-facto industry standard implemented in the majority of commercial VPN software.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/openvpn/vacancies/83880/
+  </job_url>
+ </vacancy>
+ <vacancy id="39">
+  <name>
+   Senior Python Developer, backend
+  </name>
+  <company>
+   PLINK.GG
+  </company>
+  <cities>
+   <city>
+    Киев
+   </city>
+  </cities>
+  <info>
+   Мы разрабатываем игровые приложения для взаимодействия пользователей в разных игровых сообществах. Агрегируем данные из разных систем, собираем в одном месте и отслеживаем изменения. Проект поддерживается крупной геймдев студией.
+  </info>
+  <job_url>
+   https://jobs.dou.ua/companies/plink-gg/vacancies/108660/
+  </job_url>
  </vacancy>
 </vacancy-list>

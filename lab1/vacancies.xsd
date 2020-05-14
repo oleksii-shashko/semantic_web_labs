@@ -20,6 +20,7 @@
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:element>
+			<xs:element name="job_url" type="xs:anyURI"/>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:byte"/>
 	</xs:complexType>

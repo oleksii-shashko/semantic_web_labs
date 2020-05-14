@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<vacancy-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\vacancies.xsd">
+ <vacancy id="0">
+  <name>
+   Middle Python Developer
+  </name>
+  <company>
+   WePlay! Esports
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    About us:  WePlay! Esports is the first esportainment company in TECHIIA holding, that combined esports, storytelling and entertainment content. We want to surprise and entertain every esports fan and attract new ones.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="1">
+  <name>
+   Automatic Speech Recognition Developer
+  </name>
+  <company>
+   Omilia Natural Language Solutions UA Ltd
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    Omilia is an international company with offices in Athens, Kyiv, Crete and Prague a.o. Our customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="2">
+  <name>
+   Python Developer
+  </name>
+  <company>
+   Omilia Natural Language Solutions UA Ltd
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    Omilia is an international company with offices in Athens, Kyiv, Crete and Prague a.o. Our customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="3">
+  <name>
+   Junior Software Engineer
+  </name>
+  <company>
+   Very Good Security
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Lviv
+   </city>
+  </cities>
+  <info>    At Very Good Security (“VGS”) we are on a mission to protect the world’s sensitive data — and we’d love to have you along for this journey.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="4">
+  <name>
+   Middle Python Developer
+  </name>
+  <company>
+   TS Tech
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    Продуктовая IT компания, находящаяся на рынке более 9 лет.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="5">
+  <name>
+   Python Instructor / Developer (Mate academy)
+  </name>
+  <company>
+   Genesis
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    Genesis — is a full-cycle international product ІТ-company. -We are the most high-loaded company in the country and one of the largest partner of Facebook, Google, Snapchat and Apple in the CEE region.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="6">
+  <name>
+   Junior Developer in Test (Python)
+  </name>
+  <company>
+   Ajax Systems
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    Ми, Ajax Systems, створюємо систему безпеки і пристрої smart home. Хочемо, щоб кожен будинок став безпечним і надійним, а сигналізації — технологічними, стильними і простими у використанні. Віримо в інтернет речей і розумну безпеку, як його основу.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="7">
+  <name>
+   Middle/Senior Django Developer
+  </name>
+  <company>
+   Dataforest
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    DataForest— we are experts committed to creating bespoke data-driven solutions for the variety of corporate clients over the world.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="8">
+  <name>
+   Python/Django Middle-Senior Backend Developer
+  </name>
+  <company>
+   Beemster Team
+  </company>
+  <cities quantity="1">
+   </cities>
+  <info>    We are looking for skilled developer with the backend development experience using Python/Django with some knowledge of blockchain and smart contracts. Preferably from Ukraine or Eastern Europe.   </info>
+ <remote>True</remote></vacancy>
+ <vacancy id="9">
+  <name>
+   Python Developer
+  </name>
+  <company>
+   The Product Engine
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Odessa
+   </city>
+  </cities>
+  <info>    Python knowledge Experience in development of high scale and high performance applications Understanding of Microservices, Enterprise web applications, Serverless Architecture Spoken English knowledge (intermediate or better)   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="10">
+  <name>
+   Senior Software Engineer, Healthcare Data Ingestion (remote work role)
+  </name>
+  <company>
+   Paige
+  </company>
+  <cities quantity="2">
+   <city id="0">
+    New York City
+   </city>
+   </cities>
+  <info>    We’re seeking a creative Senior Software Engineer, Healthcare Data Ingestion who enjoys implementing scalable and interoperable applications and systems to join our Engineering Team.   </info>
+ <remote>True</remote></vacancy>
+ <vacancy id="11">
+  <name>
+   Senior Python Engineer #7319
+  </name>
+  <company>
+   Lohika
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    ABOUT THE PROJECT:  Our customer takes the leading position in advanced data analytics and engineering expertise.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="12">
+  <name>
+   Python developer
+  </name>
+  <company>
+   DDI Development
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kharkov
+   </city>
+  </cities>
+  <info>    This year we celebrated our 12th anniversary. During this period we have developed more than 200 different web and mobile development projects for our clients worldwide. We’re headquartered in Kharkiv, Ukraine.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="13">
+  <name>
+   Senior Data Engineer (Python)
+  </name>
+  <company>
+   Beetroot
+  </company>
+  <cities quantity="3">
+   <city id="0">
+    Kiev
+   </city>
+   <city id="1">
+    Kharkov
+   </city>
+   <city id="2">
+    Odessa
+   </city>
+  </cities>
+  <info>    We’re looking for a Senior Data Engineer who is ready to develop in a highly innovative, cutting-edge technology environment. Challenge promised, adventures guaranteed!   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="14">
+  <name>
+   Senior C++/Python Backend Network Programmer
+  </name>
+  <company>
+   Dragon`s Lake Entertainment
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    abroad
+   </city>
+  </cities>
+  <info>    We are a dynamic and scalable full-cycle Console &amp; PC Game Developer and focused on next gen AAA games creation. Our team is veterans of the gaming industry and have worked on well-known world-class games.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="15">
+  <name>
+   Data Engineer
+  </name>
+  <company>
+   TurnKey Labs
+  </company>
+  <cities quantity="2">
+   <city id="0">
+    Kiev
+   </city>
+   </cities>
+  <info>    On behalf of Persefoni (https://www.persefoni.com/), TurnKey is looking for a Data Engineer to join our technology team.  About the Client  Our mission is the enablement of every organization and person with the technology to positively impact the health of planet Earth.   </info>
+ <remote>True</remote></vacancy>
+ <vacancy id="16">
+  <name>
+   Senior/Strong middle Cloud developer
+  </name>
+  <company>
+   NIX Solutions
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kharkov
+   </city>
+  </cities>
+  <info>    · Platform which provides the REST API for the end user to manage and orchestrate various ML models (mostly Spark/PySpark based) focused on different aspects of healthcare domain (treatment cost estimation, categorisation of patients, health risk estimation etc); ·...   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="17">
+  <name>
+   Full-stack (Django + React) Developer (middle)
+  </name>
+  <company>
+   Limestone Digital
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kiev
+   </city>
+  </cities>
+  <info>    Our partner is a huge company that builds solutions in the Finance sphere. The idea of this particular project is to help out company with scanning and managing financial documents. There is already a third-party solution in place, so all the hard work is done.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="18">
+  <name>
+   Python Engineer at AnvilEight
+  </name>
+  <company>
+   AnvilEight
+  </company>
+  <cities quantity="1">
+   <city id="0">
+    Kharkov
+   </city>
+  </cities>
+  <info>    About Us:  AnvilEight is Python development outsourcing company that provides custom software solutions and mobile development services to both businesses and individuals.   </info>
+ <remote>False</remote></vacancy>
+ <vacancy id="19">
+  <name>
+   Full-Stack Engineer
+  </name>
+  <company>
+   bountysourcing
+  </company>
+  <cities quantity="1">
+   </cities>
+  <info>    Our Client, a FinTech company is now looking for a Full-Stack Engineer to join their team.   </info>
+ <remote>True</remote></vacancy>
+</vacancy-list>

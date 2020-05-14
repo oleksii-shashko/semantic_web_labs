@@ -4,3 +4,6 @@
 *.doc
 *.tmp
 *.rar
+tasks
+rar
+*.ipynb

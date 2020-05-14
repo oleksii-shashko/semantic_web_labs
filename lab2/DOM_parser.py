@@ -1,10 +1,10 @@
-import lxml.etree as ET
+import lxml.etree as et
 
 
 class VacancyXML:
-    def __init__(self, xml_path):
+    def __init__(self, xml_path: str):
         self.xml_path = xml_path
-        self.dom = ET.parse(self.xml_path)
+        self.dom = et.parse(self.xml_path)
         self.root = self.dom.getroot()
 
     def save(self, xml_path=None):
@@ -31,7 +31,7 @@ class VacancyXML:
     def add_remote_element(self):
         for vacancies in self.root.getchildren():
             cities_list = vacancies.find("cities").findall("city")
-            remote = ET.SubElement(vacancies, "remote")
+            remote = et.SubElement(vacancies, "remote")
 
             for city in cities_list:
                 if city.text.replace("\n", "").strip() == "remote":
@@ -43,10 +43,10 @@ class VacancyXML:
 
 
 def make_html(xml: str, xslt: str):
-    dom = ET.parse(xml)
-    xslt_parse = ET.parse(xslt)
+    dom = et.parse(xml)
+    xslt_parse = et.parse(xslt)
 
-    transform = ET.XSLT(xslt_parse)
+    transform = et.XSLT(xslt_parse)
     new_dom = transform(dom)
 
     with open("dou_vacancies.html", "w", encoding="utf-8") as file:
