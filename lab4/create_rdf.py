@@ -50,7 +50,7 @@ def form_rdf(root: et.Element):
         g.add((vacancy_rdf, DC.identifier, Literal(vacancy.get("id"))))
         g.add((vacancy_rdf, DC.creator, Literal(company.text.strip())))
         g.add((vacancy_rdf, DC.title, Literal(name.text.strip())))
-        g.add((vacancy_rdf, DC.description,Literal(info.text.replace("\n", "").strip())))
+        g.add((vacancy_rdf, DC.description, Literal(info.text.replace("\n", "").strip())))
         g.add((vacancy_rdf, DC.subject, Literal("work")))
         g.add((vacancy_rdf, DC.publisher, Literal("jobs.dou.ua")))
         g.add((vacancy_rdf, DC["format"], Literal("text/html")))

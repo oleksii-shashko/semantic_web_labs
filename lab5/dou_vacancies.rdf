@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:my="http://description.com/my_schema/"
+>
+
+<rdfs:Class rdf:ID="VacancyList"/>
+
+<rdfs:Class rdf:ID="PythonEngineer">
+    <rdfs:subClassOf rdf:resource="#VacancyList"/>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID="BackendEngineer">
+    <rdfs:subClassOf rdf:resource="#VacancyList"/>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID="SoftwareEngineer">
+    <rdfs:subClassOf rdf:resource="#VacancyList"/>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID="FullStackEngineer">
+    <rdfs:subClassOf rdf:resource="#VacancyList"/>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID="MLEngineer">
+    <rdfs:subClassOf rdf:resource="#VacancyList"/>
+</rdfs:Class>
+
+
+<rdf:Property rdf:ID="title">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="publisher">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="language">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="cities">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Bag"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="description">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="identifier">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="creator">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="subject">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="format">
+    <rdfs:domain rdf:resource="#VacancyList"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/kapowai/vacancies/37302/">
+    <rdf:type rdf:resource="BackendEngineer"/>
+    <my:title>Middle/Middle+ Python Back-End Developer</my:title>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:language>en</my:language>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N19fe5cb5ff0a4c62bb4e752ee3439ebd">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:description>• 2+ year experience in Python development • Knowledge of REST API • Strong SQL knowledge • Software development methodology and software lifecycle processes knowledge • Experience in Git’s workflow (branching, merging, rebasing etc.); • Ability to read technical and requirements...</my:description>
+    <my:identifier>37</my:identifier>
+    <my:creator>Kapowai</my:creator>
+    <my:subject>work</my:subject>
+    <my:format>text/html</my:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/uvik-software/vacancies/54675/">
+    <rdf:type rdf:resource="SoftwareEngineer"/>
+    <my:language>en</my:language>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Nb200932317934c558cad75887fc7c384">
+        <rdf:li>Ивано-Франковск</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:description>2+ years of experience working with Python; Experience working with Django/Flask; Experience developing client-server applications and RESTful services; Good spoken English.</my:description>
+    <my:identifier>5</my:identifier>
+    <my:creator>Uvik Software</my:creator>
+    <my:title>Middle Python Developer</my:title>
+    <my:format>text/html</my:format>
+    <my:publisher>jobs.dou.ua</my:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/plink-gg/vacancies/108660/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:creator>PLINK.GG</my:creator>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N6cee55415c5040a3a231826abc84cf01">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:title>Senior Python Developer, backend</my:title>
+    <my:identifier>39</my:identifier>
+    <my:language>ru/ua</my:language>
+    <my:format>text/html</my:format>
+    <my:description>Мы разрабатываем игровые приложения для взаимодействия пользователей в разных игровых сообществах. Агрегируем данные из разных систем, собираем в одном месте и отслеживаем изменения. Проект поддерживается крупной геймдев студией.</my:description>
+    <my:subject>work</my:subject>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/derzhavne-pidpriyemstvo-infoteh/vacancies/120999/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:title>Інженер програмного забезпечення, знайомий з Python</my:title>
+    <my:subject>work</my:subject>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N27cd86bc64dc480db70fda2d9d2fb143">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>13</my:identifier>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Nf2733447869649dea1ea7fd48fd1ed7f">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>27</my:identifier>
+    <my:language>ru/ua</my:language>
+    <my:format>text/html</my:format>
+    <my:description>ДП «ІНФОТЕХ шукає програміста розробника для участі у розробці проекту «Медичної інформаційної системи».</my:description>
+    <my:creator>"ІНФОТЕХ"</my:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/titanium-labs/vacancies/121123/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:title>Senior Python Developer</my:title>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:format>text/html</my:format>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N8d8b6e735f044b1dbdf09b438b52eafb">
+        <rdf:li>Черкассы</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:creator>Titanium Labs Inc</my:creator>
+    <my:identifier>1</my:identifier>
+    <my:description>We are developing the world’s first speech recognition technology designed to understand non-standard speech.  We build products that allow people with speech disabilities associated with various backgrounds to communicate using their own voices.</my:description>
+    <my:language>en</my:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/knubisoft/vacancies/121035/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:format>text/html</my:format>
+    <my:identifier>7</my:identifier>
+    <my:creator>KnubiSoft</my:creator>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Nf572bd22c0e94033b511e23abe0bb04e">
+        <rdf:li>Харьков</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:description>Looking for a developer for a healthcare project. Most work will be on the back-end system admin, data ingestion/processing and API development</my:description>
+    <my:title>Middle Python Developer</my:title>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:language>en</my:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/openvpn/vacancies/83880/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N050b5db0e780466b8f6ade7b85eeeb5e">
+        <rdf:li>Львов</rdf:li>
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:language>en</my:language>
+    <my:title>Senior Python Engineer for Networking Solutions</my:title>
+    <my:identifier>38</my:identifier>
+    <my:description>If you have ever used a VPN service, chances are it was based on OpenVPN, an open-source protocol that we first developed over 16 years ago and that has since become the de-facto industry standard implemented in the majority of commercial VPN software.</my:description>
+    <my:subject>work</my:subject>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:format>text/html</my:format>
+    <my:creator>OpenVPN</my:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/design-and-test-lab/vacancies/121090/">
+    <rdf:type rdf:resource="SoftwareEngineer"/>
+    <my:description>Сейчас мы ищем Python Software Engineer в свою команду на проекты с использованием Python 3.8, Postgresql, Sqlalchemy, Connexion, Swagger, Docker, Amazon Web Services, Google Cloud Platform, unittests, pytests для разработки социальных сетей.  1. На проекте русскоязычный менеджмент.</my:description>
+    <my:creator>Design and Test Lab</my:creator>
+    <my:title>Python Software Engineer (Backend)</my:title>
+    <my:format>text/html</my:format>
+    <my:identifier>3</my:identifier>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N88c6fbe2d7d845268b2ea1055e72b337">
+        <rdf:li>Харьков</rdf:li>
+        <rdf:li>удаленно</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:language>ru/ua</my:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/figleaf/vacancies/120951/">
+    <rdf:type rdf:resource="BackendEngineer"/>
+    <my:format>text/html</my:format>
+    <my:title>Technical Lead / Senior Back-End Engineer</my:title>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N70acfc20ee424e00819a7a6e04c2431c">
+        <rdf:li>Киев</rdf:li>
+        <rdf:li>удаленно</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:language>en</my:language>
+    <my:identifier>18</my:identifier>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N24f69624ad8c494c9334acb16217115f">
+        <rdf:li>удаленно</rdf:li>
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:creator>FigLeaf</my:creator>
+    <my:subject>work</my:subject>
+    <my:identifier>31</my:identifier>
+    <my:description>FigLeaf is the first-of-its-kind cross-platform App that empowers people with the choice to be private online.</my:description>
+    <my:publisher>jobs.dou.ua</my:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/ooo-medstar-solyushens/vacancies/120974/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:title>Senior Python Engineer</my:title>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N8520567e1dcd4de9b82e62df125d6190">
+        <rdf:li>Харьков</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:identifier>16</my:identifier>
+    <my:description>Requirements: • Commercial development experience of at least 5 years; • Experience in designing highly loaded systems; • Knowledge of PostgreSQL and MongoDB; • Experience in the deployment and maintenance of systems on the AMS; • Deep understanding of containerization (Docker);...</my:description>
+    <my:format>text/html</my:format>
+    <my:creator>Medstar Solutions LLC</my:creator>
+    <my:language>en</my:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/a123lab/vacancies/120429/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:language>en</my:language>
+    <my:identifier>32</my:identifier>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N92df8a20130744af89b76f539ec0e6c4">
+        <rdf:li>удаленно</rdf:li>
+        <rdf:li>Одесса</rdf:li>
+        <rdf:li>Харьков</rdf:li>
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:title>Php or Python Developer for Web Scraping</my:title>
+    <my:creator>A123Lab</my:creator>
+    <my:description>проект under NDA</my:description>
+    <my:subject>work</my:subject>
+    <my:format>text/html</my:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/litslink/vacancies/80388/">
+    <rdf:type rdf:resource="FullStackEngineer"/>
+    <my:description>We look for experienced Python Developer who likes the idea of doing a bit of everything and wants to work in a fast-paced environment.</my:description>
+    <my:format>text/html</my:format>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N3808a413574d484eacb3bbb88df204e2">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:creator>LITSLINK</my:creator>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Nb753a39f935347308086b6b27635921f">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>30</my:identifier>
+    <my:title>Python (Django) Developer</my:title>
+    <my:subject>work</my:subject>
+    <my:identifier>17</my:identifier>
+    <my:language>en</my:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/axon-development-group/vacancies/117270/">
+    <rdf:type rdf:resource="FullStackEngineer"/>
+    <my:identifier>10</my:identifier>
+    <my:description>You will be building a Multi-project Management System that will allow companies to determine project tasks, create a schedule, assign resources, and identify and track issues and risks on projects.</my:description>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N756c6de90b0e493fafac2b7b05484199">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:language>en</my:language>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N80194743c9424d6888fd77837ce75210">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:title>Python Web Developer (1+ years experience)</my:title>
+    <my:subject>work</my:subject>
+    <my:identifier>24</my:identifier>
+    <my:format>text/html</my:format>
+    <my:creator>Axon</my:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/portaone/vacancies/120874/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:creator>PortaOne</my:creator>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:subject>work</my:subject>
+    <my:format>text/html</my:format>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N853ffd99b314412da01f78405979d86a">
+        <rdf:li>Чернигов</rdf:li>
+        <rdf:li>Сумы</rdf:li>
+        <rdf:li>Киев</rdf:li>
+        <rdf:li>удаленно</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:language>ru/ua</my:language>
+    <my:identifier>34</my:identifier>
+    <my:title>Middle/Senior Python Software Engineer</my:title>
+    <my:description>PortaOne — компания созданная украинцами в 1997 году, теперь является мировым разработчиком программного обеспечения для современных телекоммуникаций.</my:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/go-interactive/vacancies/119404/">
+    <rdf:type rdf:resource="BackendEngineer"/>
+    <my:format>text/html</my:format>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N5cd19e50662d4a9688d9ac6dbccdc23f">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:language>en</my:language>
+    <my:title>Senior Back-End Developer (Python)</my:title>
+    <my:identifier>15</my:identifier>
+    <my:description>Our Stack  - Testing (Jest, Sinon) - Analytics, Error Capturing (Google, Rollbar) - Languages (Javascript, Python) - Frameworks (React/Redux, Django) - AWS (RDS, EC2, S3) - Visualization library (D3) - iOS (Viper/Swift) - Android (MVVM/Kotlin)  Building the ecosystem for care...</my:description>
+    <my:creator>Go interactive</my:creator>
+    <my:subject>work</my:subject>
+    <my:identifier>29</my:identifier>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N52201913cd934a5593c7d5866914eb0c">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/allstars-it/vacancies/92289/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:creator>AllStars-IT Ukraine</my:creator>
+    <my:identifier>28</my:identifier>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Nee7acc18580746f3b6e1f707584d5395">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:identifier>14</my:identifier>
+    <my:subject>work</my:subject>
+    <my:format>text/html</my:format>
+    <my:language>en</my:language>
+    <my:title>Python Developer JB-260</my:title>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N88fbf5f91c0d4c838e22cb1ca0af73df">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:description>Wizer is a consumer research company that leverages powerful tools for automation research and data analysis. Holistic and comprehensive insights from them allows grow &amp; compete many world-clues brands such as Reebok, Johnson and Johnson, Wilson.</my:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:identifier>35</my:identifier>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Ndb408c268b484d1c9b4a3439522ec8b6">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:title>Senior Python QA Automation Engineer (Switch Products)</my:title>
+    <my:language>en</my:language>
+    <my:description>— 3 years of software testing experience, at least 1 year of QA Automation using Python. — Strong experience in Python, REST API and scripting languages. — Strong knowledge of software QA methodologies, tools and processes. — Experience with Jenkins, Git.</my:description>
+    <my:creator>Ubiquiti Inc</my:creator>
+    <my:format>text/html</my:format>
+    <my:publisher>jobs.dou.ua</my:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/">
+    <rdf:type rdf:resource="FullStackEngineer"/>
+    <my:format>text/html</my:format>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N69aadb21e3b74527b52f1fc702602902">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>26</my:identifier>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N66b102cc458d4991ae7eddd1faff49fe">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:language>en</my:language>
+    <my:identifier>12</my:identifier>
+    <my:description>Our friends is a VC-backed startup creating a system that lets one voice sound like another, focused on very high-quality output and usability for demanding applications like TV and movies, call centers, and gaming.</my:description>
+    <my:title>Full-Stack Web Developer (Python backend)</my:title>
+    <my:subject>work</my:subject>
+    <my:creator>Data Science UA</my:creator>
+    <my:publisher>jobs.dou.ua</my:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/betinvest/vacancies/111788/">
+    <rdf:type rdf:resource="SoftwareEngineer"/>
+    <my:description>Betinvest LTD is an international betting and gaming solutions provider with 20 years of industry experience. We are incorporated in the United Kingdom and currently serve clients across four continents — Europe, Asia, Africa and North America.</my:description>
+    <my:creator>BetInvest Ltd</my:creator>
+    <my:title>Python Software Developer</my:title>
+    <my:format>text/html</my:format>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:identifier>4</my:identifier>
+    <my:language>en</my:language>
+    <my:identifier>21</my:identifier>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N6f7af37d73c741a0baac5ae52cdcb4fe">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N3244cc68d23f453dae0dac42583c19b6">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/qencode/vacancies/106221/?from=list_hot">
+    <rdf:type rdf:resource="FullStackEngineer"/>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:format>text/html</my:format>
+    <my:language>ru/ua</my:language>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N7c122a4663504e77a18c3f99990fb82d">
+        <rdf:li>удаленно</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>0</my:identifier>
+    <my:description>Qencode — это высокоэффективное облачное решение для транскодирования видео, которое позволяет клиентам сэкономить более 80% затрат на транскодирование.</my:description>
+    <my:creator>Qencode</my:creator>
+    <my:title>Full Stack Engineer / Web Developer (PHP, Python)</my:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/gfe-solutions/vacancies/121030/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:identifier>23</my:identifier>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:subject>work</my:subject>
+    <my:title>Senior Python Developer</my:title>
+    <my:description>-	4+ years of professional experience as a Data Engineer (Python Developer), including deploying and maintaining code in a production environment -	Experience with Python frameworks (e.g.</my:description>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Ne371e3dc11114fe89aa72b712fea0844">
+        <rdf:li>Киев</rdf:li>
+        <rdf:li>удаленно</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N056bfb9b88144db78a9b37612ea3d208">
+        <rdf:li>Киев</rdf:li>
+        <rdf:li>удаленно</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>9</my:identifier>
+    <my:language>en</my:language>
+    <my:format>text/html</my:format>
+    <my:creator>GFE-Solutions</my:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/magetic-ai/vacancies/120867/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Ne86682adb0da4ec9b26eacc0e6fc075f">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:description>MAGETIC AI — R&amp;D development center, where we generate Artificial Intelligence Technologies, with machine learning &amp; deep learning abilities to systems with a high mass of DB activity, converting this data into insights, and autonomously acting on these insights for...</my:description>
+    <my:subject>work</my:subject>
+    <my:format>text/html</my:format>
+    <my:language>en</my:language>
+    <my:identifier>36</my:identifier>
+    <my:title>Senior Python Developer</my:title>
+    <my:creator>Magetic AI</my:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/plvision/vacancies/106315/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:description>We are a software R&amp;D firm, specializing in Computer Networking, Embedded Development, and the Internet of Things, operating on the global market since 2007. We are looking for a talented Software Verification Engineer to join the switch OS group.</my:description>
+    <my:format>text/html</my:format>
+    <my:title>Junior/Middle Python Verification Engineer</my:title>
+    <my:language>en</my:language>
+    <my:creator>PLVision</my:creator>
+    <my:identifier>19</my:identifier>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N6796e7af1c4a49f6a24fd12aad8359fa">
+        <rdf:li>Львов</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:subject>work</my:subject>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/go-wombat-team/vacancies/121032/">
+    <rdf:type rdf:resource="FullStackEngineer"/>
+    <my:creator>Go Wombat Team</my:creator>
+    <my:subject>work</my:subject>
+    <my:description>В данный момент нам не хватает людей для работы на AdTech рынок UK, в котором мы видим высокий спрос на активных Python программистов с навыками обработки данных, построения ETL систем и интеграции результатов своей работы с различными веб платформами.</my:description>
+    <my:title>Python Web Developer</my:title>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N9a3ba1da2f20418a971dfb0dbb63976e">
+        <rdf:li>Днепр</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>8</my:identifier>
+    <my:language>ru/ua</my:language>
+    <my:format>text/html</my:format>
+    <my:publisher>jobs.dou.ua</my:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/kitrum/vacancies/121104/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N5f3a15c3e6284640afbae555d1dcb557">
+        <rdf:li>Харьков</rdf:li>
+        <rdf:li>удаленно</rdf:li>
+        <rdf:li>Ужгород</rdf:li>
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>20</my:identifier>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:subject>work</my:subject>
+    <my:title>Senior Python Developer</my:title>
+    <my:creator>KitRUM</my:creator>
+    <my:language>en</my:language>
+    <my:format>text/html</my:format>
+    <my:identifier>2</my:identifier>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Neb2de90bd58046f6bd874e33baf09379">
+        <rdf:li>удаленно</rdf:li>
+        <rdf:li>Харьков</rdf:li>
+        <rdf:li>Киев</rdf:li>
+        <rdf:li>Ужгород</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:description>Client is a technology company that designs and develops digital music products and services and a world leader in music usage monitoring currently working with 30% of all world Copyright Collecting Societies.</my:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/">
+    <rdf:type rdf:resource="MLEngineer"/>
+    <my:title>ML Engineer C++/Python</my:title>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N670628cf2b6947fe9d011deb6493d2c6">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:format>text/html</my:format>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:description>Job Summary  As a member of our Research Team, you will be solving challenging problems. You will be engaged in an iterated process of data preparation, prototyping and/or implementation, measurement, and deploying your solution.</my:description>
+    <my:language>en</my:language>
+    <my:identifier>11</my:identifier>
+    <my:creator>Ring Ukraine</my:creator>
+    <my:identifier>25</my:identifier>
+    <my:subject>work</my:subject>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N4cf207ae55b549fba38e20af0abf6d19">
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/bcd-triptech/vacancies/102184/">
+    <rdf:type rdf:resource="PythonEngineer"/>
+    <my:description>What you will be doing:  Crafting an elegant, resilient, and useful distributed system for booking business travels.  You certainly:  Have experience working with Python and a strong desire to improve your skills.</my:description>
+    <my:subject>work</my:subject>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N501b29c237f845fa96f31baaf3f845ec">
+        <rdf:li>Киев</rdf:li>
+        <rdf:li>удаленно</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>33</my:identifier>
+    <my:creator>BCD TripTech</my:creator>
+    <my:title>Senior Software Engineer (Python) — building a complex distributed travel application</my:title>
+    <my:format>text/html</my:format>
+    <my:language>en</my:language>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://jobs.dou.ua/companies/itrex-group/vacancies/121061/">
+    <rdf:type rdf:resource="SoftwareEngineer"/>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="N44c4d7b96013410191373010fbab5adb">
+        <rdf:li>удаленно</rdf:li>
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:creator>ITRex Group</my:creator>
+    <my:cities>
+      <rdf:Bag rdf:nodeID="Nba9ca2747b51488aaf40dcabee5a009b">
+        <rdf:li>удаленно</rdf:li>
+        <rdf:li>Киев</rdf:li>
+      </rdf:Bag>
+    </my:cities>
+    <my:identifier>6</my:identifier>
+    <my:subject>work</my:subject>
+    <my:description>A fast-growing US (LA) startup focusing on personalized e-commerce shopping. A conversational commerce platform scales personalized conversations with its customers through NLP.</my:description>
+    <my:language>en</my:language>
+    <my:format>text/html</my:format>
+    <my:identifier>22</my:identifier>
+    <my:publisher>jobs.dou.ua</my:publisher>
+    <my:title>Senior Software (Python) Engineer</my:title>
+  </rdf:Description>
+</rdf:RDF>
