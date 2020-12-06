@@ -1,0 +1,1155 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/lexa0/ontologies/2020/11/vacancy-ontology"
+         xmlns="http://www.semanticweb.org/lexa0/ontologies/2020/11/vacancy-ontology#"
+         xmlns:vaca="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#">
+
+<owl:Ontology rdf:about="http://www.semanticweb.org/lexa0/ontologies/2020/11/vacancy-ontology"/>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#allocatedIn">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#beBusinessPartner">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#beBusinessPartner"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasHeadquartersIn">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasPerspective">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#proposeVacancy">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#proposedBy"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#proposedBy">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireKnowledge"/>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireLanguageKnowledge">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#EnglishLanguageLevel"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireKnowledge"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireProgrammingLanguageKnowledge">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireKnowledge"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#requireMarketingKnowledge">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range rdf:resource="#MarketingKnowledge"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireKnowledge"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasExperienceLimit">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+      <owl:withRestrictions>
+        <rdf:Description>
+          <rdf:first>
+            <rdf:Description>
+              <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minInclusive>
+            </rdf:Description>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </owl:withRestrictions>
+    </rdfs:Datatype>
+  </rdfs:range>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasNumberOfEmployees">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+      <owl:withRestrictions>
+        <rdf:Description>
+          <rdf:first>
+            <rdf:Description>
+              <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+            </rdf:Description>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </owl:withRestrictions>
+    </rdfs:Datatype>
+  </rdfs:range>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasScoreOfLifeQuality">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+      <owl:withRestrictions>
+        <rdf:Description>
+          <rdf:first>
+            <rdf:Description>
+              <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minInclusive>
+            </rdf:Description>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </owl:withRestrictions>
+    </rdfs:Datatype>
+  </rdfs:range>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasShortTitle">
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#EnglishLanguageLevel"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#isCrossplatform">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#offeresSalary">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+      <owl:withRestrictions>
+        <rdf:Description>
+          <rdf:first>
+            <rdf:Description>
+              <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+            </rdf:Description>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </owl:withRestrictions>
+    </rdfs:Datatype>
+  </rdfs:range>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasRating">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy">
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#allocatedIn"/>
+      <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#proposedBy"/>
+      <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <rdfs:comment>Some vacancy.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City">
+  <rdfs:comment>A city where is placed.
+Has division into regions.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company">
+  <rdfs:comment>Companies that could place a vacancy.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#EnglishLanguageLevel">
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:oneOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Advanced"/>
+        <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+        <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Pre-Intermediate"/>
+        <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+      </owl:oneOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment>Main levels of English language knowleage.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language">
+  <rdfs:comment>Programmimg language that needed in vacancies.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Asia_city">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+  <rdfs:comment>City in Asian region.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Backend_Programming_Language">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language"/>
+  <rdfs:comment>Programming language that commonly used in back-end and software development.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Designer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireProgrammingLanguageKnowledge"/>
+      <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Web_Programmimg_Language"/>
+      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <rdfs:comment>Vacancy of a some kind of designer.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Web_Programmimg_Language">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language"/>
+  <rdfs:comment>Programming language that usually used in wed development.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireProgrammingLanguageKnowledge"/>
+      <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Backend_Programming_Language"/>
+      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <rdfs:comment>Vacancy off different kind of development.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Europe_city">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+  <rdfs:comment>City in Europe region.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Fullstack_Developer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Designer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Designer_Vacancy"/>
+        <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment>Vacancy of full-stack developer.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Designer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Designer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a some kind of designer with intern experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasExperienceLimit"/>
+      <owl:onDataRange>
+        <rdfs:Datatype>
+          <owl:oneOf>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+          </owl:oneOf>
+        </rdfs:Datatype>
+      </owl:onDataRange>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy with intern level of experience.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Designer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Designer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a some kind of designer with junior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of different kind of development with junior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a project manager with junior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_QA_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a different type of quality assurance with junior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasExperienceLimit"/>
+      <owl:onDataRange>
+        <rdfs:Datatype>
+          <owl:oneOf>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+          </owl:oneOf>
+        </rdfs:Datatype>
+      </owl:onDataRange>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy with junior level of experience.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Designer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a some kind of designer with middle experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of different kind of development with middle experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a project manager with middle experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a different type of quality assurance with middle experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasExperienceLimit"/>
+      <owl:onDataRange>
+        <rdfs:Datatype>
+          <owl:oneOf>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+          </owl:oneOf>
+        </rdfs:Datatype>
+      </owl:onDataRange>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy with middle level of experience.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Designer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a some kind of designer with senior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of different kind of development with senior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a project manager with senior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a different type of quality assurance with senior experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#hasExperienceLimit"/>
+      <owl:onDataRange>
+        <rdfs:Datatype>
+          <owl:oneOf>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</rdf:first>
+            <rdf:rest>
+            <rdf:Description>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+            </rdf:rest>
+            </rdf:Description>
+          </owl:oneOf>
+        </rdfs:Datatype>
+      </owl:onDataRange>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <rdfs:comment>Vacancy with senior level of experience.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Developer_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of different kind of development with intern experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Project_Manager_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a project manager with intern experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireLanguageKnowledge"/>
+      <owl:onClass>
+        <owl:Class>
+          <owl:oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Advanced"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+          </owl:oneOf>
+        </owl:Class>
+      </owl:onClass>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <rdfs:comment>Vacancy of a project manager.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_QA_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdfs:comment>Vacancy of a different type of quality assurance with intern experience level.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#requireProgrammingLanguageKnowledge"/>
+      <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Testing_Programmimg_Language"/>
+      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+  <rdfs:comment>Vacancy of a different type of quality assurance.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Large_Company">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:comment>Company with large amount of employees.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Medium_Company">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:comment>Company with medium amount of employees.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#North_America_city">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+  <rdfs:comment>City in North America region.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Testing_Programmimg_Language">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language"/>
+  <rdfs:comment>Programming language that have testing as main aim.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Small_Company">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Company"/>
+  <rdfs:comment>Company with small amount of employees.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#South_America_city">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+  <rdfs:comment>City in South America region.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#MarketingKnowledge">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SalesManagerVacancy">
+  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#requireMarketingKnowledge"/>
+      <owl:onClass rdf:resource="#MarketingKnowledge"/>
+      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    </owl:Restriction>
+  </owl:equivalentClass>
+</owl:Class>
+
+<vaca:EnglishLanguageLevel rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Advanced">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <vaca:hasShortTitle>C1</vaca:hasShortTitle>
+</vaca:EnglishLanguageLevel>
+
+<vaca:EnglishLanguageLevel rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <vaca:hasShortTitle>B1</vaca:hasShortTitle>
+</vaca:EnglishLanguageLevel>
+
+<vaca:EnglishLanguageLevel rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Pre-Intermediate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <vaca:hasShortTitle>A2</vaca:hasShortTitle>
+</vaca:EnglishLanguageLevel>
+
+<vaca:EnglishLanguageLevel rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <vaca:hasShortTitle>B2</vaca:hasShortTitle>
+</vaca:EnglishLanguageLevel>
+
+<vaca:Company rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#DataArt">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Medium_Company"/>
+  <vaca:hasHeadquartersIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv"/>
+  <vaca:hasNumberOfEmployees rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850</vaca:hasNumberOfEmployees>
+</vaca:Company>
+
+<vaca:City rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Europe_city"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</vaca:hasScoreOfLifeQuality>
+</vaca:City>
+
+<vaca:Company rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Large_Company"/>
+  <vaca:beBusinessPartner rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Microsoft"/>
+  <vaca:hasHeadquartersIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SanJose"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Web_Developer"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Automation_QA"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Automation_QA"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Python_Developer"/>
+  <vaca:hasNumberOfEmployees rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7400</vaca:hasNumberOfEmployees>
+</vaca:Company>
+
+<vaca:Company rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Microsoft">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Large_Company"/>
+  <vaca:beBusinessPartner rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic"/>
+  <vaca:hasHeadquartersIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SanJose"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Project_Manager"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_UX/UI_Designer"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_UX/UI_Designer"/>
+  <vaca:hasNumberOfEmployees rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</vaca:hasNumberOfEmployees>
+</vaca:Company>
+
+<vaca:City rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SanJose">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#North_America_city"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">83.1</vaca:hasScoreOfLifeQuality>
+</vaca:City>
+
+<vaca:Designer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Web_Developer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Fullstack_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SanJose"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#JavaScript"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Pre-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Pre-Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#JavaScript"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">350.0</vaca:offeresSalary>
+</vaca:Designer_Vacancy>
+
+<vaca:Junior_QA_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Automation_QA">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Zurich"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">620.0</vaca:offeresSalary>
+</vaca:Junior_QA_Vacancy>
+
+<vaca:Middle_Project_Manager_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kyiv"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1500.0</vaca:offeresSalary>
+</vaca:Middle_Project_Manager_Vacancy>
+
+<vaca:QA_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Automation_QA">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_QA_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Zurich"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2500.0</vaca:offeresSalary>
+</vaca:QA_Vacancy>
+
+<vaca:Developer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Python_Developer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#NewYork"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Advanced"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Python"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Advanced"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Python"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3000.0</vaca:offeresSalary>
+</vaca:Developer_Vacancy>
+
+<vaca:Intern_QA_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Automation_QA">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SoftServ"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">300.0</vaca:offeresSalary>
+</vaca:Intern_QA_Vacancy>
+
+<vaca:Company rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SoftServ">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Medium_Company"/>
+  <vaca:hasHeadquartersIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Automation_QA"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Python_Developer"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_UX/UI_Designer"/>
+  <vaca:hasNumberOfEmployees rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</vaca:hasNumberOfEmployees>
+  <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</hasRating>
+</vaca:Company>
+
+<vaca:Programming_Language rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Testing_Programmimg_Language"/>
+</vaca:Programming_Language>
+
+<vaca:Intern_Project_Manager_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Project_Manager">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#NewYork"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Microsoft"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">350.0</vaca:offeresSalary>
+</vaca:Intern_Project_Manager_Vacancy>
+
+<vaca:City rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#NewYork">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#North_America_city"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">78.0</vaca:hasScoreOfLifeQuality>
+</vaca:City>
+
+<vaca:Programming_Language rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#JavaScript">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Web_Programmimg_Language"/>
+  <vaca:isCrossplatform rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vaca:isCrossplatform>
+</vaca:Programming_Language>
+
+<vaca:Backend_Programming_Language rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language"/>
+  <vaca:isCrossplatform rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vaca:isCrossplatform>
+</vaca:Backend_Programming_Language>
+
+<vaca:City rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Zurich">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Europe_city"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">108.69</vaca:hasScoreOfLifeQuality>
+</vaca:City>
+
+<vaca:Junior_Project_Manager_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Project_Manager">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Project_Manager_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Tokio"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Microsoft"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">700.0</vaca:offeresSalary>
+</vaca:Junior_Project_Manager_Vacancy>
+
+<vaca:Asia_city rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Tokio">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">71.7</vaca:hasScoreOfLifeQuality>
+</vaca:Asia_city>
+
+<vaca:Developer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Python_Developer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SoftServ"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Python"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Python"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">700.0</vaca:offeresSalary>
+</vaca:Developer_Vacancy>
+
+<vaca:Backend_Programming_Language rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Python">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Programming_Language"/>
+  <vaca:isCrossplatform rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</vaca:isCrossplatform>
+</vaca:Backend_Programming_Language>
+
+<vaca:Designer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Web_Developer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Fullstack_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Krakow"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Raccoon_Gang"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#JavaScript"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#JavaScript"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">650.0</vaca:offeresSalary>
+</vaca:Designer_Vacancy>
+
+<vaca:City rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Krakow">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Europe_city"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.2</vaca:hasScoreOfLifeQuality>
+</vaca:City>
+
+<vaca:Company rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Raccoon_Gang">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Small_Company"/>
+  <vaca:hasHeadquartersIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Krakow"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Web_Developer"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Automation_QA"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_UX/UI_Designer"/>
+  <vaca:hasNumberOfEmployees rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</vaca:hasNumberOfEmployees>
+</vaca:Company>
+
+<vaca:City rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kyiv">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Europe_city"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.4</vaca:hasScoreOfLifeQuality>
+</vaca:City>
+
+<vaca:Project_Manager_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Project_Manager_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Shanghai"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Microsoft"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Advanced"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Advanced"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3100.0</vaca:offeresSalary>
+</vaca:Project_Manager_Vacancy>
+
+<vaca:Designer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_UX/UI_Designer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Fullstack_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Designer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Krakow"/>
+  <vaca:hasPerspective rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_UX/UI_Designer"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Microsoft"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">600.0</vaca:offeresSalary>
+</vaca:Designer_Vacancy>
+
+<vaca:Designer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_UX/UI_Designer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Fullstack_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Designer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Tokio"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Microsoft"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1200.0</vaca:offeresSalary>
+</vaca:Designer_Vacancy>
+
+<vaca:Middle_QA_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Automation_QA">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#QA_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Tokio"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Raccoon_Gang"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Selenium"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250.0</vaca:offeresSalary>
+</vaca:Middle_QA_Vacancy>
+
+<vaca:Developer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Java_Developer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#TeamDev"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1300.0</vaca:offeresSalary>
+</vaca:Developer_Vacancy>
+
+<vaca:Company rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#TeamDev">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Medium_Company"/>
+  <vaca:hasHeadquartersIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv"/>
+  <vaca:proposeVacancy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_Java_Developer"/>
+  <vaca:hasNumberOfEmployees rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</vaca:hasNumberOfEmployees>
+</vaca:Company>
+
+<vaca:Designer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_UX/UI_Designer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Fullstack_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Designer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Intern_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kharkiv"/>
+  <vaca:hasPerspective rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Junior_UX/UI_Designer"/>
+  <vaca:hasPerspective rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Middle_UX/UI_Designer"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Raccoon_Gang"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Pre-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Pre-Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">300.0</vaca:offeresSalary>
+</vaca:Designer_Vacancy>
+
+<vaca:City rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Rio_de_Janeiro">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#South_America_city"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.2</vaca:hasScoreOfLifeQuality>
+</vaca:City>
+
+<vaca:Asia_city rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Shanghai">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#City"/>
+  <vaca:hasScoreOfLifeQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.7</vaca:hasScoreOfLifeQuality>
+</vaca:Asia_city>
+
+<vaca:Designer_Vacancy rdf:about="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_UX/UI_Designer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Fullstack_Developer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Designer_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Senior_Vacancy"/>
+  <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Vacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kyiv"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#SoftServ"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:requireKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <vaca:requireProgrammingLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Java"/>
+  <vaca:hasExperienceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</vaca:hasExperienceLimit>
+  <vaca:offeresSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2100.0</vaca:offeresSalary>
+</vaca:Designer_Vacancy>
+
+<MarketingKnowledge rdf:about="#marketing_theorem">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</MarketingKnowledge>
+
+<vaca:Vacancy rdf:about="#middle_sales_manager_vacancy">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#SalesManagerVacancy"/>
+  <vaca:allocatedIn rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Kyiv"/>
+  <vaca:proposedBy rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#GlobalLogic"/>
+  <vaca:requireLanguageKnowledge rdf:resource="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology#Upper-Intermediate"/>
+  <requireMarketingKnowledge rdf:resource="#marketing_theorem"/>
+</vaca:Vacancy>
+
+
+</rdf:RDF>

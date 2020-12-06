@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#"
+     xml:base="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:neural-network="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IsPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IsPartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasActivationFunction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasActivationFunction">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ActivationFunction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasInput -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasInput">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Input"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#isMemberOfLayer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#isMemberOfLayer"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#costFunctionValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#costFunctionValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#CostFunction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#numberOfHiddenNeurons -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#numberOfHiddenNeurons">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HyperParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#weightValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#weightValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Weight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ActivationFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ActivationFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Algorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Algorithm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ArtificialNeuralNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ArtificialNeuralNetwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ComputationalModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Layer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasInput"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Input"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Collection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Collection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ComputationalModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ComputationalModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#CostFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#CostFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Function"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#GausianInitializationAlgorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#GausianInitializationAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#WeightInitializationAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#GaussianProbabilityFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#GaussianProbabilityFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ProbabilityDistributionFunction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Layer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#isMemberOfLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Neuron"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#isMemberOfLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HyperParameter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HyperParameter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IdentityInitializationAlgorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IdentityInitializationAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#WeightInitializationAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Input"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#InitializationAlgorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#InitializationAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Algorithm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IsPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ArtificialNeuralNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Input"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Layer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Collection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IsPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ArtificialNeuralNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Neuron"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#LinearActivationFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#LinearActivationFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ActivationFunction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Neuron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Neuron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Function"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IsPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ArtificialNeuralNetwork"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IsPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Layer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#isMemberOfLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Layer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#hasActivationFunction"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ActivationFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Non-LinearActivationFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Non-LinearActivationFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ActivationFunction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Output -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Output"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ProbabilityDistributionFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ProbabilityDistributionFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Reference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Reference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Output"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#TrainingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#TrainingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Variable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Variable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Reference"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#IsPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Input"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#WeightInitializationAlgorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#WeightInitializationAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#InitializationAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+        <IsPartOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#NeuralNetwork"/>
+        <hasPart rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron"/>
+        <hasPart rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron"/>
+        <IsPartOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+        <IsPartOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#NeuralNetwork"/>
+        <hasActivationFunction rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#LinearActivationFunction"/>
+        <isMemberOfLayer rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenNeuron"/>
+        <IsPartOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+        <IsPartOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#NeuralNetwork"/>
+        <hasActivationFunction rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Non-LinearActivationFunction"/>
+        <isMemberOfLayer rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HyperParam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HyperParam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HyperParameter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#InitializationAlgorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#InitializationAlgorithm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#InitializationAlgorithm"/>
+        <IsPartOf rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#NeuralNetwork"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#LinearActivationFunction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#LinearActivationFunction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#LinearActivationFunction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#NeuralNetwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#NeuralNetwork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#ArtificialNeuralNetwork"/>
+        <hasInput rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#TestImage"/>
+        <hasPart rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#HiddenLayer"/>
+        <numberOfHiddenNeurons rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfHiddenNeurons>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Non-LinearActivationFunction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Non-LinearActivationFunction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Non-LinearActivationFunction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#TestImage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#TestImage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Weight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Weight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bohdan/ontologies/2019/11/neural-network#Weight"/>
+        <weightValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</weightValue>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

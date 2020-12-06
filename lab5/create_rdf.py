@@ -10,7 +10,7 @@ def create_rdf(xml_path: str):
     root = dom.getroot()
 
     rdf_data = form_rdf(root)
-    rdf_data.serialize(destination="dou_vacancies.rdf", format="pretty-xml")
+    rdf_data.serialize(destination="dou_vacancies1.rdf", format="pretty-xml")
 
 
 def form_rdf(root: et.Element):

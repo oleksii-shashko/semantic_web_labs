@@ -1,0 +1,1815 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology"
+     versionIRI="http://www.semanticweb.org/ontologies/2020/10/vacancy-ontology/1.0.0">
+    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2020/10/untitled-ontology-2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Asia_city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backend_Programming_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Designer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnglishLanguageLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europe_city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fullstack_Developer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intern_Designer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intern_Developer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intern_Project_Manager_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intern_QA_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intern_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junior_Designer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junior_Developer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junior_Project_Manager_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junior_QA_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junior_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Large_Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middle_Designer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middle_Developer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middle_Project_Manager_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middle_QA_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middle_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#North_America_city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_Manager_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QA_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senior_Designer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senior_Developer_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senior_Project_Manager_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senior_QA_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senior_Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Small_Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#South_America_city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Testing_Programmimg_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vacancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Programmimg_Language"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#allocatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#beBusinessPartner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPerspective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proposeVacancy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proposedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requireKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasExperienceLimit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasShortTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCrossplatform"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#offeresSalary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advanced"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataArt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GlobalLogic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intermediate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intern_Project_Manager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junior_Project_Manager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Krakow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kyiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NewYork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pre-Intermediate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_Manager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raccoon_Gang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rio_de_Janeiro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanJose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selenium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senior_Project_Manager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shanghai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoftServ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TeamDev"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tokio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zurich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Designer_Vacancy"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+            <Class IRI="#Web_Programmimg_Language"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Developer_Vacancy"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+            <Class IRI="#Backend_Programming_Language"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EnglishLanguageLevel"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Advanced"/>
+            <NamedIndividual IRI="#Intermediate"/>
+            <NamedIndividual IRI="#Pre-Intermediate"/>
+            <NamedIndividual IRI="#Upper-Intermediate"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fullstack_Developer_Vacancy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Designer_Vacancy"/>
+            <Class IRI="#Developer_Vacancy"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Intern_Vacancy"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasExperienceLimit"/>
+            <DataOneOf>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.5</Literal>
+            </DataOneOf>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Junior_Vacancy"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasExperienceLimit"/>
+            <DataOneOf>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.5</Literal>
+            </DataOneOf>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Middle_Vacancy"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasExperienceLimit"/>
+            <DataOneOf>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.5</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+            </DataOneOf>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Project_Manager_Vacancy"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#requireLanguageKnowledge"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Advanced"/>
+                <NamedIndividual IRI="#Intermediate"/>
+                <NamedIndividual IRI="#Upper-Intermediate"/>
+            </ObjectOneOf>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#QA_Vacancy"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+            <Class IRI="#Testing_Programmimg_Language"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Senior_Vacancy"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasExperienceLimit"/>
+            <DataOneOf>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.5</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.5</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.0</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.5</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.0</Literal>
+            </DataOneOf>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Vacancy"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#allocatedIn"/>
+            <Class IRI="#City"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Vacancy"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#proposedBy"/>
+            <Class IRI="#Company"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Asia_city"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backend_Programming_Language"/>
+        <Class IRI="#Programming_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Designer_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developer_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europe_city"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fullstack_Developer_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_Designer_Vacancy"/>
+        <Class IRI="#Designer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_Designer_Vacancy"/>
+        <Class IRI="#Intern_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_Developer_Vacancy"/>
+        <Class IRI="#Developer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_Developer_Vacancy"/>
+        <Class IRI="#Intern_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_Project_Manager_Vacancy"/>
+        <Class IRI="#Intern_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_Project_Manager_Vacancy"/>
+        <Class IRI="#Project_Manager_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_QA_Vacancy"/>
+        <Class IRI="#Intern_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_QA_Vacancy"/>
+        <Class IRI="#QA_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intern_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Designer_Vacancy"/>
+        <Class IRI="#Designer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Designer_Vacancy"/>
+        <Class IRI="#Junior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Developer_Vacancy"/>
+        <Class IRI="#Developer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Developer_Vacancy"/>
+        <Class IRI="#Junior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Project_Manager_Vacancy"/>
+        <Class IRI="#Junior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Project_Manager_Vacancy"/>
+        <Class IRI="#Project_Manager_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_QA_Vacancy"/>
+        <Class IRI="#Junior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_QA_Vacancy"/>
+        <Class IRI="#QA_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Large_Company"/>
+        <Class IRI="#Company"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Company"/>
+        <Class IRI="#Company"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_Designer_Vacancy"/>
+        <Class IRI="#Designer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_Designer_Vacancy"/>
+        <Class IRI="#Middle_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_Developer_Vacancy"/>
+        <Class IRI="#Developer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_Developer_Vacancy"/>
+        <Class IRI="#Middle_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_Project_Manager_Vacancy"/>
+        <Class IRI="#Middle_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_Project_Manager_Vacancy"/>
+        <Class IRI="#Project_Manager_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_QA_Vacancy"/>
+        <Class IRI="#Middle_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_QA_Vacancy"/>
+        <Class IRI="#QA_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middle_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#North_America_city"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Project_Manager_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QA_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_Designer_Vacancy"/>
+        <Class IRI="#Designer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_Designer_Vacancy"/>
+        <Class IRI="#Senior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_Developer_Vacancy"/>
+        <Class IRI="#Developer_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_Developer_Vacancy"/>
+        <Class IRI="#Senior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_Project_Manager_Vacancy"/>
+        <Class IRI="#Project_Manager_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_Project_Manager_Vacancy"/>
+        <Class IRI="#Senior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_QA_Vacancy"/>
+        <Class IRI="#QA_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_QA_Vacancy"/>
+        <Class IRI="#Senior_Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior_Vacancy"/>
+        <Class IRI="#Vacancy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Small_Company"/>
+        <Class IRI="#Company"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South_America_city"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testing_Programmimg_Language"/>
+        <Class IRI="#Programming_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Programmimg_Language"/>
+        <Class IRI="#Programming_Language"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Intern_Vacancy"/>
+        <Class IRI="#Junior_Vacancy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Intern_Vacancy"/>
+        <Class IRI="#Middle_Vacancy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Intern_Vacancy"/>
+        <Class IRI="#Senior_Vacancy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Junior_Vacancy"/>
+        <Class IRI="#Middle_Vacancy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Junior_Vacancy"/>
+        <Class IRI="#Senior_Vacancy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Middle_Vacancy"/>
+        <Class IRI="#Senior_Vacancy"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#EnglishLanguageLevel"/>
+        <NamedIndividual IRI="#Advanced"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medium_Company"/>
+        <NamedIndividual IRI="#DataArt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Large_Company"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EnglishLanguageLevel"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intern_QA_Vacancy"/>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intern_Project_Manager_Vacancy"/>
+        <NamedIndividual IRI="#Intern_Project_Manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intern_Developer_Vacancy"/>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Backend_Programming_Language"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Web_Programmimg_Language"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Junior_QA_Vacancy"/>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Junior_Project_Manager_Vacancy"/>
+        <NamedIndividual IRI="#Junior_Project_Manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Junior_Developer_Vacancy"/>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Junior_Developer_Vacancy"/>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europe_city"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europe_city"/>
+        <NamedIndividual IRI="#Krakow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europe_city"/>
+        <NamedIndividual IRI="#Kyiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Large_Company"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Middle_QA_Vacancy"/>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Middle_Developer_Vacancy"/>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#North_America_city"/>
+        <NamedIndividual IRI="#NewYork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EnglishLanguageLevel"/>
+        <NamedIndividual IRI="#Pre-Intermediate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Middle_Project_Manager_Vacancy"/>
+        <NamedIndividual IRI="#Project_Manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Backend_Programming_Language"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Small_Company"/>
+        <NamedIndividual IRI="#Raccoon_Gang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#South_America_city"/>
+        <NamedIndividual IRI="#Rio_de_Janeiro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#North_America_city"/>
+        <NamedIndividual IRI="#SanJose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Testing_Programmimg_Language"/>
+        <NamedIndividual IRI="#Selenium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Senior_QA_Vacancy"/>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Senior_Project_Manager_Vacancy"/>
+        <NamedIndividual IRI="#Senior_Project_Manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Senior_Developer_Vacancy"/>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asia_city"/>
+        <NamedIndividual IRI="#Shanghai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medium_Company"/>
+        <NamedIndividual IRI="#SoftServ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medium_Company"/>
+        <NamedIndividual IRI="#TeamDev"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asia_city"/>
+        <NamedIndividual IRI="#Tokio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EnglishLanguageLevel"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europe_city"/>
+        <NamedIndividual IRI="#Zurich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intern_Designer_Vacancy"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Junior_Designer_Vacancy"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Middle_Designer_Vacancy"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Senior_Designer_Vacancy"/>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <NamedIndividual IRI="#DataArt"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beBusinessPartner"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+        <NamedIndividual IRI="#SanJose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+        <NamedIndividual IRI="#SoftServ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+        <NamedIndividual IRI="#Selenium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Intern_Project_Manager"/>
+        <NamedIndividual IRI="#NewYork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Intern_Project_Manager"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Intern_Project_Manager"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+        <NamedIndividual IRI="#SanJose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+        <NamedIndividual IRI="#Pre-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+        <NamedIndividual IRI="#Zurich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+        <NamedIndividual IRI="#Selenium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Junior_Project_Manager"/>
+        <NamedIndividual IRI="#Tokio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Junior_Project_Manager"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_Project_Manager"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+        <NamedIndividual IRI="#SoftServ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+        <NamedIndividual IRI="#Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+        <NamedIndividual IRI="#Krakow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+        <NamedIndividual IRI="#Raccoon_Gang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <NamedIndividual IRI="#Microsoft"/>
+        <NamedIndividual IRI="#SanJose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+        <NamedIndividual IRI="#Tokio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+        <NamedIndividual IRI="#Raccoon_Gang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+        <NamedIndividual IRI="#Selenium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+        <NamedIndividual IRI="#TeamDev"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Project_Manager"/>
+        <NamedIndividual IRI="#Kyiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Project_Manager"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Project_Manager"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <NamedIndividual IRI="#Raccoon_Gang"/>
+        <NamedIndividual IRI="#Krakow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+        <NamedIndividual IRI="#Zurich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+        <NamedIndividual IRI="#Selenium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Senior_Project_Manager"/>
+        <NamedIndividual IRI="#Shanghai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Senior_Project_Manager"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Senior_Project_Manager"/>
+        <NamedIndividual IRI="#Advanced"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+        <NamedIndividual IRI="#NewYork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+        <NamedIndividual IRI="#Advanced"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+        <NamedIndividual IRI="#Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <NamedIndividual IRI="#SoftServ"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <NamedIndividual IRI="#TeamDev"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerspective"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Raccoon_Gang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Pre-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Krakow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerspective"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Tokio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Kyiv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#proposedBy"/>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#SoftServ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasShortTitle"/>
+        <NamedIndividual IRI="#Advanced"/>
+        <Literal>C1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <NamedIndividual IRI="#DataArt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">850</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <NamedIndividual IRI="#GlobalLogic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasShortTitle"/>
+        <NamedIndividual IRI="#Intermediate"/>
+        <Literal>B1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Intern_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">300.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Intern_Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Intern_Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">350.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Intern_Web_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">350.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCrossplatform"/>
+        <NamedIndividual IRI="#Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCrossplatform"/>
+        <NamedIndividual IRI="#JavaScript"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Junior_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">620.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Junior_Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Junior_Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">700.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Junior_Python_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">700.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Junior_Web_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">650.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#Kharkiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#Krakow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">50.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#Kyiv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <NamedIndividual IRI="#Microsoft"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Middle_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1250.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Middle_Java_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1300.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#NewYork"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">78.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasShortTitle"/>
+        <NamedIndividual IRI="#Pre-Intermediate"/>
+        <Literal>A2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isCrossplatform"/>
+        <NamedIndividual IRI="#Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <NamedIndividual IRI="#Raccoon_Gang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">172</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#Rio_de_Janeiro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">59.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#SanJose"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">83.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Senior_Automation_QA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Senior_Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Senior_Project_Manager"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Senior_Python_Developer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#Shanghai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">41.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <NamedIndividual IRI="#SoftServ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <NamedIndividual IRI="#TeamDev"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#Tokio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">71.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasShortTitle"/>
+        <NamedIndividual IRI="#Upper-Intermediate"/>
+        <Literal>B2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <NamedIndividual IRI="#Zurich"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">108.69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Intern_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">300.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Junior_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">600.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Middle_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1200.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#offeresSalary"/>
+        <NamedIndividual IRI="#Senior_UX/UI_Designer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2100.0</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <ObjectProperty IRI="#requireKnowledge"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <ObjectProperty IRI="#requireKnowledge"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#proposeVacancy"/>
+        <ObjectProperty IRI="#proposedBy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#beBusinessPartner"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasPerspective"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <Class IRI="#Vacancy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#beBusinessPartner"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPerspective"/>
+        <Class IRI="#Vacancy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#proposeVacancy"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#proposedBy"/>
+        <Class IRI="#Vacancy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <Class IRI="#Vacancy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <Class IRI="#Vacancy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#allocatedIn"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#beBusinessPartner"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHeadquartersIn"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPerspective"/>
+        <Class IRI="#Vacancy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#proposeVacancy"/>
+        <Class IRI="#Vacancy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#proposedBy"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requireLanguageKnowledge"/>
+        <Class IRI="#EnglishLanguageLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requireProgrammingLanguageKnowledge"/>
+        <Class IRI="#Programming_Language"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasExperienceLimit"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isCrossplatform"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#offeresSalary"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <Class IRI="#Vacancy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <Class IRI="#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasShortTitle"/>
+        <Class IRI="#EnglishLanguageLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCrossplatform"/>
+        <Class IRI="#Programming_Language"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#offeresSalary"/>
+        <Class IRI="#Vacancy"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasExperienceLimit"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumberOfEmployees"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasScoreOfLifeQuality"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasShortTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isCrossplatform"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#offeresSalary"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Asia_city</IRI>
+        <Literal>City in Asian region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Backend_Programming_Language</IRI>
+        <Literal>Programming language that commonly used in back-end and software development.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#City</IRI>
+        <Literal>A city where is placed.
+Has division into regions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Company</IRI>
+        <Literal>Companies that could place a vacancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Designer_Vacancy</IRI>
+        <Literal>Vacancy of a some kind of designer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Developer_Vacancy</IRI>
+        <Literal>Vacancy off different kind of development.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EnglishLanguageLevel</IRI>
+        <Literal>Main levels of English language knowleage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Europe_city</IRI>
+        <Literal>City in Europe region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fullstack_Developer_Vacancy</IRI>
+        <Literal>Vacancy of full-stack developer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intern_Designer_Vacancy</IRI>
+        <Literal>Vacancy of a some kind of designer with intern experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intern_Developer_Vacancy</IRI>
+        <Literal>Vacancy of different kind of development with intern experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intern_Project_Manager_Vacancy</IRI>
+        <Literal>Vacancy of a project manager with intern experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intern_QA_Vacancy</IRI>
+        <Literal>Vacancy of a different type of quality assurance with intern experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intern_Vacancy</IRI>
+        <Literal>Vacancy with intern level of experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Junior_Designer_Vacancy</IRI>
+        <Literal>Vacancy of a some kind of designer with junior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Junior_Developer_Vacancy</IRI>
+        <Literal>Vacancy of different kind of development with junior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Junior_Project_Manager_Vacancy</IRI>
+        <Literal>Vacancy of a project manager with junior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Junior_QA_Vacancy</IRI>
+        <Literal>Vacancy of a different type of quality assurance with junior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Junior_Vacancy</IRI>
+        <Literal>Vacancy with junior level of experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Large_Company</IRI>
+        <Literal>Company with large amount of employees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Medium_Company</IRI>
+        <Literal>Company with medium amount of employees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Middle_Designer_Vacancy</IRI>
+        <Literal>Vacancy of a some kind of designer with middle experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Middle_Developer_Vacancy</IRI>
+        <Literal>Vacancy of different kind of development with middle experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Middle_Project_Manager_Vacancy</IRI>
+        <Literal>Vacancy of a project manager with middle experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Middle_QA_Vacancy</IRI>
+        <Literal>Vacancy of a different type of quality assurance with middle experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Middle_Vacancy</IRI>
+        <Literal>Vacancy with middle level of experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#North_America_city</IRI>
+        <Literal>City in North America region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Programming_Language</IRI>
+        <Literal>Programmimg language that needed in vacancies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Project_Manager_Vacancy</IRI>
+        <Literal>Vacancy of a project manager.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QA_Vacancy</IRI>
+        <Literal>Vacancy of a different type of quality assurance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Senior_Designer_Vacancy</IRI>
+        <Literal>Vacancy of a some kind of designer with senior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Senior_Developer_Vacancy</IRI>
+        <Literal>Vacancy of different kind of development with senior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Senior_Project_Manager_Vacancy</IRI>
+        <Literal>Vacancy of a project manager with senior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Senior_QA_Vacancy</IRI>
+        <Literal>Vacancy of a different type of quality assurance with senior experience level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Senior_Vacancy</IRI>
+        <Literal>Vacancy with senior level of experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Small_Company</IRI>
+        <Literal>Company with small amount of employees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#South_America_city</IRI>
+        <Literal>City in South America region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Testing_Programmimg_Language</IRI>
+        <Literal>Programming language that have testing as main aim.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vacancy</IRI>
+        <Literal>Some vacancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Web_Programmimg_Language</IRI>
+        <Literal>Programming language that usually used in wed development.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
